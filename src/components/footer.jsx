@@ -12,7 +12,7 @@ const Footer = () => {
 
         <div className="footer-links">
           <a href="/">Home</a>
-          <a href="/about">About</a>
+          <a href="/about">About Us</a>
           <a href="/services">Services</a>
           <a href="/contact">Contact</a>
         </div>
