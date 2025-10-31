@@ -1,5 +1,5 @@
 import React from 'react';
-import './Hero.css';
+import './hero.css';
 import { ParallaxBanner } from 'react-scroll-parallax';
 const Hero = () => {
     const  BannerLayer = {
