@@ -2,7 +2,7 @@ import Navbar from './components/navbar'
 import Hero from './components/hero'
 import Projects from './components/projects'
 import WhoWeAre from './components/whoWeAre'
-import Footer from './components/Footer'
+import Footer from './components/footerComponent'
 function App() {
   return (
     <>
