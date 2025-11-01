@@ -17,17 +17,19 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background-color: #fff;
-  border-bottom: 1px solid #eaeaea;
+
+
   position: fixed;
   width: 100%;
   top: 0;
   z-index: 1000;
   transition: box-shadow 0.3s ease;
+  transition: background-color 0.8s ease;
 }
 
 .navbar.sticky {
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 2px 8px rgba(65, 7, 7, 0.05);
+  background-color: #fff;
 }
 
 /* Logo */
@@ -51,6 +53,10 @@ body {
   transition: transform 0.3s ease-in-out; 
   text-transform: uppercase;
 }
+.nav-links a.active {
+  color: #be0000;
+}
+
 
 .nav-links a:hover {
   color: #be0000;
@@ -89,6 +95,9 @@ body {
 
 /* Responsive styles */
 @media (max-width: 768px) {
+  .navbar{
+     background-color: #fff;
+  }
   .nav-links {
     display: none;
     position: absolute;

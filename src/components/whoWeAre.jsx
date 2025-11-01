@@ -9,12 +9,14 @@ const WhoWeAre = () => {
                <section className="who-we-are-parallax">
       <div className="who-we-are-overlay">
         <div className="who-we-are-content">
-          <h2>Who We Are</h2>
+          <h2>Our Design Philosophy</h2>
           <p>
-            We are a multidisciplinary architecture studio crafting spaces that balance form, function, and emotion. Our work is rooted in simplicity, sustainability, and a deep respect for context.
+            We believe architecture should inspire, endure, and harmonize with its environment.
+        Our designs reflect a commitment to sustainability, elegance, and human-centered spaces.
           </p>
           <p>
-            From urban sanctuaries to coastal retreats, we design environments that inspire and endure — blending creativity with clarity.
+           Every project begins with a deep understanding of context—cultural, environmental, and emotional.
+        We strive to create spaces that not only serve their purpose but elevate the experience of those who inhabit them.
           </p>
           <a href="/about" className="who-we-are-button">Learn More</a>
         </div>

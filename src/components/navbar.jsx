@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { NavLink } from 'react-router-dom';
 import './Navbar.css';
 
 const Navbar = () => {
@@ -15,12 +16,12 @@ const Navbar = () => {
 
   return (
     <nav className={`navbar ${isSticky ? 'sticky' : ''}`}>
-      <div className="logo"><img src="/images/FLOW_LOGO1.png" alt="" /></div>
+      <div className="logo"><img src="/images/FLOW_LOGO1.png" alt="Logo" /></div>
       <div className={`nav-links ${menuOpen ? 'active' : ''}`}>
-        <a href="#">Home</a>
-        <a href="#">Projects</a>
-        <a href="#">Studio</a>
-        <a href="#">Contact</a>
+        <NavLink to="/" exact activeClassName="active" onClick={() => setMenuOpen(false)}>Home</NavLink>
+        <NavLink to="/projects" activeClassName="active" onClick={() => setMenuOpen(false)}>Projects</NavLink>
+        <NavLink to="/studio" activeClassName="active" onClick={() => setMenuOpen(false)}>Studio</NavLink>
+        <NavLink to="/contact" activeClassName="active" onClick={() => setMenuOpen(false)}>Contact</NavLink>
       </div>
       <div
         className={`menu-toggle ${menuOpen ? 'open' : ''}`}

@@ -1,18 +1,17 @@
 import Navbar from './components/navbar'
-import Hero from './components/hero'
-import Projects from './components/projects'
-import WhoWeAre from './components/whoWeAre'
-import Footer from './components/footerComponent'
+import { Routes,Route,Router } from 'react-router-dom'
+import Home from './pages/Home'
 function App() {
   return (
     <>
-      <Navbar />
-      <Hero />
-      <Projects />
-      <WhoWeAre />
-      <Footer />
     
-     
+      <Navbar />
+    
+         <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+      
+      
     </>
   )
 }
