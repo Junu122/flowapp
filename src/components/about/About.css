@@ -77,25 +77,34 @@
 
 .story-image-box {
     /* Subtle border for separation on white background */
-   border: 1px solid var(--card-bg); 
-    transform: rotateY(-5deg); 
-    transition: transform 0.5s ease;
+  flex: 1;
+    /* Remove old transform/transition from here */
+    border: 1px solid var(--card-bg); 
     border-radius: var(--border-radius-lg);
     box-shadow: var(--box-shadow-light);
     max-width: 500px;
+    
+    /* Crucial: Set a fixed height for the ParallaxBanner to work */
+    height: 450px; 
+    overflow: hidden;
+}
+.story-parallax-image {
+    width: 100% !important; 
+    height: 100% !important; /* The ParallaxBanner handles the full dimensions */
+    border-radius: var(--border-radius-lg);
 }
 
-.story-image-box:hover {
+/* .story-image-box:hover {
     transform: rotateY(-2deg) scale(1.02);
-}
+} */
 
-.story-image {
+/* .story-image {
     width: 100%;
     height: auto;
     display: block;
     border-radius: var(--border-radius-lg);
-    filter: none; /* Removed the dark mode filter */
-}
+    filter: none; 
+} */
 
 .section-heading {
     font-family: var(--font-heading);

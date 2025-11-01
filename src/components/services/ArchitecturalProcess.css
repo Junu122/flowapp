@@ -1,0 +1,182 @@
+/* --- CSS Variables remain the same --- */
+:root {
+    --primary-color: #CC2936; 
+    --secondary-color: #A3212C; 
+    --background-light: #FFFFFF; 
+    --text-dark: #1F1F1F; 
+    --text-mid: #555555; 
+    --card-bg: #F8F8F8; 
+    --border-radius-lg: 12px;
+    --box-shadow-light: 0 5px 20px rgba(0, 0, 0, 0.08);
+    --font-heading: 'Poppins', sans-serif; 
+    --font-body: 'Roboto', sans-serif;
+}
+
+/* Main Container and Header (No Change) */
+.process-container {
+    background-color: var(--background-light);
+    color: var(--text-dark);
+    padding: 80px 5%; 
+    font-family: var(--font-body);
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+/* ... (Header and Title styles remain the same) ... */
+
+/* -------------------------------------------------- */
+/* --- TIMELINE STRUCTURE (Mobile-First Default) --- */
+/* -------------------------------------------------- */
+
+.timeline-wrapper {
+    max-width: 1000px; 
+    margin: 0 auto;
+    position: relative;
+    padding: 0 10px;
+}
+
+/* 1. Vertical Red Line (positioned on the left for all screens initially) */
+.timeline-wrapper::after {
+    content: '';
+    position: absolute;
+    width: 4px;
+    background-color: var(--primary-color);
+    top: 0;
+    bottom: 0;
+    left: 30px; /* Line fixed on the left side */
+    margin-left: -2px;
+    z-index: 1;
+}
+
+.timeline-item {
+    padding-left: 70px; /* Space for the number marker */
+    padding-right: 15px;
+    position: relative;
+    width: 100%; /* Full width on small screens */
+    margin-bottom: 40px; /* Space between steps */
+    z-index: 2; 
+}
+
+/* 2. Step Number (Marker) - Positioned relative to the item's left edge */
+.step-number {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background-color: var(--background-light);
+    border: 4px solid var(--primary-color);
+    border-radius: 50%;
+    z-index: 10;
+    top: 0; /* Align to the top of the item */
+    left: 0; /* Align perfectly on the vertical line */
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    font-family: var(--font-heading);
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+/* Reset desktop-specific classes for mobile view */
+.timeline-item.left, 
+.timeline-item.right {
+    left: 0;
+}
+
+/* Reset all step number positioning overrides */
+.timeline-item.left .step-number, 
+.timeline-item.right .step-number {
+    right: auto;
+    left: 0;
+}
+
+/* -------------------------------------------------- */
+/* --- DESKTOP VIEW (Apply two-column layout above 768px) --- */
+/* -------------------------------------------------- */
+@media screen and (min-width: 769px) {
+    /* 1. Center the vertical line */
+    .timeline-wrapper::after {
+        left: 50%;
+    }
+
+    /* 2. Set width back to 50% for two columns */
+    .timeline-item {
+        width: 50%;
+        padding: 10px 40px; /* Reset padding for two-column view */
+        margin-bottom: 0;
+    }
+
+    /* 3. Position left/right items */
+    .timeline-item.left {
+        left: 0;
+        text-align: right; /* Align text to the right for left items */
+    }
+
+    .timeline-item.right {
+        left: 50%;
+        text-align: left; /* Align text to the left for right items */
+    }
+    
+    /* 4. Position markers correctly for desktop */
+    .timeline-item.left .step-number {
+        right: -40px; /* Pushes the number right, onto the center line */
+        left: auto;
+    }
+
+    .timeline-item.right .step-number {
+        left: -40px; /* Pushes the number left, onto the center line */
+    }
+
+    /* Adjust text alignment for content cards on the left side */
+    .timeline-item.left .step-content {
+        text-align: left; /* Keep content aligned left inside the card */
+    }
+}
+
+/* ... (Step Content, Step Title, Step Description styles remain the same) ... */
+
+.step-content {
+    background-color: var(--card-bg);
+    padding: 30px;
+    border-radius: var(--border-radius-lg);
+    box-shadow: var(--box-shadow-light);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.step-content:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 15px 30px rgba(204, 41, 54, 0.15); 
+}
+
+.step-title {
+    font-family: var(--font-heading);
+    font-size: 1.7rem;
+    color: var(--text-dark);
+    margin-bottom: 10px;
+}
+
+.step-description {
+    color: var(--text-mid);
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+.timeline-item.right .step-number {
+    left: -20px;
+}
+.timeline-item.left .step-number {
+    left: -20px;
+}
+.step-title{
+    font-size: 28px;
+}
+}
+
+@media screen and (max-width: 480px) {
+.step-title{
+    font-size: 22px;
+}
+}

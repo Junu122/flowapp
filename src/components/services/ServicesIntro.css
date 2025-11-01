@@ -1,0 +1,35 @@
+.service-intro {
+  background-color: #f5f5f5;
+  padding: 6rem 2rem 4rem;
+  text-align: center;
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+.service-intro-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.service-intro h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  color: #111;
+  margin-bottom: 1.5rem;
+}
+
+.service-intro p {
+  font-size: 1.2rem;
+  color: #555;
+  line-height: 1.8;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .service-intro h1 {
+    font-size: 2.4rem;
+  }
+
+  .service-intro p {
+    font-size: 1.05rem;
+  }
+}

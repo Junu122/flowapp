@@ -1,0 +1,192 @@
+/* --- CSS Variables for Light Mode Theming (Consistent with About Us) --- */
+:root {
+    --primary-color: #CC2936; /* Vibrant Primary Red */
+    --secondary-color: #A3212C; /* Darker Red for subtle accents */
+    --background-light: #FFFFFF; /* Main White Background */
+    --text-dark: #1F1F1F; /* Near-Black for main text */
+    --text-mid: #555555; /* Medium Gray for secondary text */
+    --card-bg: #F8F8F8; /* Very subtle off-white for card backgrounds */
+    --border-radius-lg: 12px;
+    --box-shadow-light: 0 5px 20px rgba(0, 0, 0, 0.08); /* Light, professional shadow */
+    --font-heading: 'Poppins', sans-serif; 
+    --font-body: 'Roboto', sans-serif;
+}
+
+/* Service Intro Container */
+.service-intro-container {
+    background-color: var(--background-light);
+    color: var(--text-dark);
+    padding: 80px 5%; /* Generous padding */
+    font-family: var(--font-body);
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+/* Header Section */
+.service-intro-header {
+    text-align: center;
+    margin-bottom: 70px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.service-intro-title {
+    font-family: var(--font-heading);
+    font-size: 3.2rem;
+    margin-bottom: 15px;
+    font-weight: 800;
+    line-height: 1.2;
+    padding: 40px 0;
+}
+
+.highlight-red {
+    color: var(--primary-color);
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.1); 
+}
+
+.service-intro-subtitle {
+    font-size: 1.2rem;
+    color: var(--text-mid);
+    max-width: 700px;
+    margin: 0 auto;
+    font-weight: 400;
+}
+
+/* Services Grid */
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* Responsive grid */
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto 80px;
+}
+
+.service-card {
+    background-color: var(--card-bg);
+    padding: 35px;
+    border-radius: var(--border-radius-lg);
+    text-align: center;
+    box-shadow: var(--box-shadow-light);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+    border: 1px solid rgba(0, 0, 0, 0.05); /* Subtle border for definition */
+}
+
+.service-card:hover {
+    transform: translateY(-8px); /* Lift effect */
+    box-shadow: 0 15px 30px rgba(204, 41, 54, 0.15); /* Soft red glow */
+    border-color: var(--primary-color); /* Highlight border */
+}
+
+.service-icon {
+    font-size: 3.5rem; /* Large icon size */
+    margin-bottom: 20px;
+    color: var(--primary-color); /* Red icon */
+}
+
+.service-card-title {
+    font-family: var(--font-heading);
+    font-size: 1.6rem;
+    color: var(--text-dark);
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.service-card-description {
+    font-size: 1rem;
+    color: var(--text-mid);
+    margin-bottom: 25px;
+}
+
+.service-card-button {
+    background: none;
+    border: none;
+    color: var(--primary-color);
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 5px 0;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.service-card-button:hover {
+    color: var(--secondary-color);
+    transform: translateX(5px);
+}
+
+.service-card-button span {
+    transition: transform 0.3s ease;
+}
+
+.service-card-button:hover span {
+    transform: translateX(3px);
+}
+
+/* Call to Action (CTA) Section - Consistent Styling */
+.service-cta-section {
+    text-align: center;
+    padding: 60px 20px;
+    margin-top: 50px;
+    background: linear-gradient(135deg, var(--primary-color) 0%, #F5979F 100%);
+    border-radius: var(--border-radius-lg);
+    box-shadow: 0 15px 30px rgba(204, 41, 54, 0.4);
+    color: var(--background-light);
+}
+
+.service-cta-text {
+    font-size: 1.8rem;
+    font-family: var(--font-heading);
+    margin-bottom: 25px;
+    color: var(--background-light);
+    font-weight: 700;
+}
+
+.service-cta-button {
+    background-color: var(--background-light);
+    color: var(--primary-color);
+    border: 2px solid var(--background-light);
+    padding: 15px 40px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-radius: 50px; 
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); 
+}
+
+.service-cta-button:hover {
+    background-color: var(--secondary-color);
+    color: var(--background-light);
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .service-intro-title {
+        font-size: 2.5rem;
+    }
+    .service-intro-subtitle {
+        font-size: 1rem;
+    }
+    .service-cta-text {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .service-intro-title {
+        font-size: 2rem;
+    }
+    .service-card-title {
+        font-size: 1.4rem;
+    }
+    .service-icon {
+        font-size: 3rem;
+    }
+}

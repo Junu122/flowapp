@@ -1,12 +1,33 @@
 import React from 'react'
 import "./About.css"
-import { Parallax } from 'react-scroll-parallax'
+import { Parallax, ParallaxBanner } from 'react-scroll-parallax'
 const About = () => {
     const teamMembers = [
         { name: 'Member 1', title: 'Chief Visionary Officer', bio: 'Driving our strategic direction and fostering a culture of innovation.', img: 'team-alice.jpg' },
         { name: 'Member 2', title: 'Head of Product Excellence', bio: 'Ensuring every product we deliver meets the highest standards of quality and usability.', img: 'team-robert.jpg' },
         // Add more team members
     ];
+
+    const ParallaxImage = () => {
+        // This is the component holding the image we want to animate
+        return (
+            // The ParallaxBanner creates the effect.
+            // layers: defines what moves and how fast.
+            // image: the image source.
+            // speed: the vertical speed relative to the scroll (negative means moving slower than the scroll).
+            <ParallaxBanner
+                layers={[
+                    {
+                        image: '/images/postimg5.jpg', // Your image source
+                        speed: -15, // Moves up 15% slower than the scroll speed
+                    },
+                ]}
+                className="story-parallax-image"
+            >
+                {/* You can add content over the parallax image if needed */}
+            </ParallaxBanner>
+        );
+    };
     return (
         <section className="about-us-container">
             <div className="about-us-header">
@@ -20,10 +41,7 @@ const About = () => {
 
             <div className="core-story-section">
                 <div className="story-image-box">
-                    {/* Replace with a high-quality company or aesthetic image */}
-                    <Parallax speed={-20} translateY={[-30, 20]}>
-                        <img src="/images/postimg5.jpg" alt="Our Company Vision" className="story-image" />
-                    </Parallax>
+                    <ParallaxImage />
                 </div>
                 <div className="story-content">
                     <h2 className="section-heading">Our  Story & Vision</h2>
