@@ -1,5 +1,5 @@
 import React from 'react';
-import './whatwedo.css';
+import './Whatwedo.css';
 import { useNavigate } from 'react-router-dom';
 
 // Replace these with actual image paths or URLs
