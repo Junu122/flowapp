@@ -3,9 +3,9 @@ import './Whatwedo.css';
 import { useNavigate } from 'react-router-dom';
 
 // Replace these with actual image paths or URLs
-import archIcon from '../../public/images/staircase.png';
-import interiorIcon from '../../public/images/blueprint.png';
-import landscapeIcon from '../../public/images/drawing.png';
+import archIcon from '../../public/images/main-banner1.jpg';
+import interiorIcon from '../../public/images/main-banner1.jpg';
+import landscapeIcon from '../../public/images/main-banner1.jpg';
 
 const WhatWeDo = () => {
   const navigate = useNavigate();

@@ -19,7 +19,7 @@ const Navbar = () => {
       <div className="logo"><img src="/images/FLOW_LOGO1.png" alt="Logo" /></div>
       <div className={`nav-links ${menuOpen ? 'active' : ''}`}>
         <NavLink to="/" exact activeClassName="active" onClick={() => setMenuOpen(false)}>Home</NavLink>
-        <NavLink to="/projects" activeClassName="active" onClick={() => setMenuOpen(false)}>Projects</NavLink>
+        <NavLink to="/about" activeClassName="active" onClick={() => setMenuOpen(false)}>About</NavLink>
         <NavLink to="/studio" activeClassName="active" onClick={() => setMenuOpen(false)}>Studio</NavLink>
         <NavLink to="/contact" activeClassName="active" onClick={() => setMenuOpen(false)}>Contact</NavLink>
       </div>

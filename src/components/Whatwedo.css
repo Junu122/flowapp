@@ -6,9 +6,12 @@
 }
 
 .what-we-do h2 {
-  font-size: 2.5rem;
+     font-family: 'Helvetica Neue', sans-serif;
+  font-size: 3rem;
   margin-bottom: 2rem;
   color: #111;
+  letter-spacing: 1px;
+  font-weight: bold;
 }
 
 .services-grid {
@@ -31,6 +34,7 @@
 
 .service-card:hover {
   transform: translateY(-5px);
+  cursor: pointer;
 }
 
 .service-icon {
@@ -75,6 +79,10 @@
 
   .service-card {
     width: 100%;
-    max-width: 350px;
+    max-width: 400px;
+    padding: 4px;
+  }
+  .what-we-do h2 {
+    font-size: 24px;
   }
 }

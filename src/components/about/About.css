@@ -1,0 +1,258 @@
+/* --- CSS Variables for Light Mode Theming --- */
+:root {
+    --primary-color: #CC2936; /* Vibrant Primary Red */
+    --secondary-color: #A3212C; /* Darker Red for subtle accents */
+    --background-light: #FFFFFF; /* Main White Background */
+    --text-dark: #1F1F1F; /* Near-Black for main text */
+    --text-mid: #555555; /* Medium Gray for secondary text */
+    --card-bg: #F8F8F8; /* Very subtle off-white for card backgrounds */
+    --border-radius-lg: 12px;
+    --box-shadow-light: 0 5px 20px rgba(0, 0, 0, 0.08); /* Light, professional shadow */
+    --font-heading: 'Poppins', sans-serif; 
+    --font-body: 'Roboto', sans-serif;
+}
+
+/* Global Container Styles */
+.about-us-container {
+    background-color: var(--background-light);
+    color: var(--text-dark);
+    padding: 60px 5%; 
+    font-family: var(--font-body);
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+/* --- Header Section --- */
+.about-us-header {
+    text-align: center;
+    margin-bottom: 80px;
+    padding: 40px 0;
+}
+
+.header-title {
+    font-family: var(--font-heading);
+    font-size: 3.5rem; 
+    margin-bottom: 15px;
+    font-weight: 800;
+}
+
+/* The requested Red color for key text */
+.highlight-text {
+    color: var(--primary-color);
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.1); 
+}
+
+.header-subtitle {
+    font-size: 1.25rem;
+    color: var(--text-mid);
+    max-width: 700px;
+    margin: 0 auto;
+    font-weight: 400;
+}
+
+/* --- Core Story Section (Two-Column Layout) --- */
+.core-story-section {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: flex-start; /* Important: Align items to the start (top) */
+    margin-bottom: 100px;
+    padding: 0 20px;
+}
+
+@media (max-width: 992px) {
+    .core-story-section {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.story-image-box, .story-content {
+    flex: 1;
+}
+.story-content p {
+    margin-bottom: 20px; /* Add space below each paragraph */
+    color: var(--text-dark); /* Ensure text color is black/dark */
+}
+
+.story-image-box {
+    /* Subtle border for separation on white background */
+   border: 1px solid var(--card-bg); 
+    transform: rotateY(-5deg); 
+    transition: transform 0.5s ease;
+    border-radius: var(--border-radius-lg);
+    box-shadow: var(--box-shadow-light);
+    max-width: 500px;
+}
+
+.story-image-box:hover {
+    transform: rotateY(-2deg) scale(1.02);
+}
+
+.story-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: var(--border-radius-lg);
+    filter: none; /* Removed the dark mode filter */
+}
+
+.section-heading {
+    font-family: var(--font-heading);
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: var(--text-dark);
+}
+
+.vision-points {
+    margin-bottom: 0px;
+    list-style: none;
+    padding: 0;
+    margin-top: 30px;
+}
+
+.vision-points li {
+    /* Subtle light gray background with red border */
+    background-color: var(--card-bg); 
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    border-left: 4px solid var(--primary-color);
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+.vision-points li:hover {
+    background-color: #FFEFEF; /* Very light red on hover */
+}
+
+/* --- Team Section --- */
+.section-heading-centered {
+    text-align: center;
+    font-family: var(--font-heading);
+    font-size: 2.5rem;
+    margin-bottom: 60px;
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.team-member-card {
+    background-color: var(--card-bg);
+    padding: 30px;
+    border-radius: var(--border-radius-lg);
+    text-align: center;
+    box-shadow: var(--box-shadow-light);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid rgba(0, 0, 0, 0.05); /* Very light border */
+}
+
+.team-member-card:hover {
+    transform: translateY(-5px);
+    /* Subtle red glow on hover for impact */
+    box-shadow: 0 10px 30px rgba(204, 41, 54, 0.2); 
+}
+
+.member-photo-wrapper {
+    width: 120px;
+    height: 120px;
+    margin: 0 auto 15px;
+    border-radius: 50%;
+    border: 3px solid var(--primary-color);
+    padding: 4px;
+    overflow: hidden;
+}
+
+.member-photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    filter: grayscale(10%); 
+    transition: filter 0.3s ease;
+}
+
+.team-member-card:hover .member-photo {
+    filter: grayscale(0%);
+}
+
+.member-name {
+    font-size: 1.5rem;
+    color: var(--text-dark);
+    margin-bottom: 5px;
+}
+
+.member-title {
+    font-size: 0.9rem;
+    color: var(--primary-color); /* Title in Red for emphasis */
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.member-bio {
+    font-size: 0.9rem;
+    color: var(--text-mid);
+}
+
+/* --- Call to Action (CTA) Section --- */
+.cta-section {
+    text-align: center;
+    padding: 60px 20px;
+    margin-top: 80px;
+    /* Red to very light red gradient for high visibility */
+    /* background: linear-gradient(135deg, var(--primary-color) 0%, #F5979F 100%); */
+    background: url("/images/spacejoy.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: var(--border-radius-lg);
+    box-shadow: 0 15px 30px rgba(83, 61, 63, 0.4);
+    color: var(--background-light); /* White text on red background */
+}
+
+.cta-text {
+    font-size: 1.8rem;
+    font-family: var(--font-heading);
+    margin-bottom: 25px;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+.cta-button {
+    background-color: var(--background-light); /* White button */
+    color: var(--primary-color); /* Red text */
+    border: 2px solid var(--background-light);
+    padding: 15px 40px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-radius: 50px; 
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); 
+}
+
+.cta-button:hover {
+    background-color: var(--secondary-color); /* Red hover */
+    color: var(--background-light); /* White text on hover */
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Responsive adjustments for mobile */
+@media (max-width: 600px) {
+    .header-title {
+        font-size: 2.5rem;
+    }
+    .section-heading, .section-heading-centered {
+        font-size: 2rem;
+    }
+    .cta-text {
+        font-size: 1.4rem;
+    }
+}
