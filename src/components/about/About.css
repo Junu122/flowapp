@@ -77,7 +77,7 @@
 
 .story-image-box {
     /* Subtle border for separation on white background */
-  flex: 1;
+  
     /* Remove old transform/transition from here */
     border: 1px solid var(--card-bg); 
     border-radius: var(--border-radius-lg);

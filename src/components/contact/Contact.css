@@ -1,0 +1,172 @@
+/* --- CSS Variables for Minimalist Theme --- */
+:root {
+    --primary-red: #CC2936; /* Used sparingly for high-impact accents */
+    --background-white: #FFFFFF; /* Main Background */
+    --text-black: #1F1F1F; /* Main Text Color */
+    --text-mid-gray: #555555; /* Secondary Text Color */
+    --light-border: #EEEEEE; /* Very light gray for borders */
+    --font-heading: 'Poppins', sans-serif; 
+    --font-body: 'Roboto', sans-serif;
+    --spacing: 30px;
+}
+
+/* Global Container Styles */
+.contact-container {
+    background-color: var(--background-white);
+    color: var(--text-black);
+    padding: 80px 5%; 
+    font-family: var(--font-body);
+    line-height: 1.6;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+/* --- Header Section --- */
+.contact-header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.contact-title {
+    font-family: var(--font-heading);
+    font-size: 3.2rem; 
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.highlight-text-contact {
+    color: var(--primary-red);
+}
+
+.contact-subtitle {
+    font-size: 1.1rem;
+    color: var(--text-mid-gray);
+    max-width: 600px;
+    margin: 0 auto;
+    font-weight: 300;
+}
+
+/* --- Content Grid (Form and Details) --- */
+.contact-content-grid {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr; /* Form takes slightly more space */
+    gap: var(--spacing);
+    padding: 0 20px;
+}
+
+@media (max-width: 992px) {
+    .contact-content-grid {
+        grid-template-columns: 1fr;
+    }
+    .contact-form-box, .contact-details-box {
+        padding: 40px;
+    }
+}
+
+.section-heading-contact {
+    font-family: var(--font-heading);
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 30px;
+    color: var(--text-black);
+    border-bottom: 2px solid var(--light-border);
+    padding-bottom: 10px;
+}
+
+/* --- Form Styles --- */
+.contact-form-box {
+    padding: 50px;
+    /* Minimalist focus: light border for separation */
+    border: 1px solid var(--light-border); 
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.04);
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid var(--light-border);
+    border-radius: 4px;
+    font-family: var(--font-body);
+    font-size: 1rem;
+    color: var(--text-black);
+    transition: border-color 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: var(--primary-red); /* Red focus line for modernity */
+    outline: none;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.submit-button {
+    background-color: var(--text-black); /* Black button background */
+    color: var(--background-white); /* White text */
+    padding: 15px 30px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.submit-button:hover {
+    background-color: var(--primary-red); /* Red hover effect */
+    transform: translateY(-2px);
+}
+
+/* --- Details Box Styles --- */
+.contact-details-box {
+    padding: 50px;
+    border: 1px solid var(--light-border);
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.04);
+}
+
+.details-group {
+    margin-bottom: var(--spacing);
+}
+
+.detail-label {
+    font-family: var(--font-heading);
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--text-black);
+    margin-bottom: 5px;
+}
+
+.detail-value {
+    color: var(--text-mid-gray);
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.map-placeholder {
+    height: 250px;
+    background-color: var(--light-border);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-mid-gray);
+    font-size: 0.9rem;
+    margin-top: 10px;
+    border: 1px solid #DDDDDD;
+}
+.map-placeholder iframe {
+    width: 100%;
+    height: 100%;
+    /* Ensures the iframe uses the correct box model for its parent */
+    display: block; 
+    /* You already set style="border:0;" on the iframe in React, but this is good practice */
+    border: none; 
+}

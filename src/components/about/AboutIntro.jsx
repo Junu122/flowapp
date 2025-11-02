@@ -29,6 +29,7 @@ const About = () => {
         );
     };
     return (
+        <>
         <section className="about-us-container">
             <div className="about-us-header">
                 <h1 className="header-title">
@@ -82,7 +83,9 @@ const About = () => {
             </div>
 
             {/* Dynamic CTA Section - Encourage the client to take the next step */}
-            <div className="cta-section">
+           
+        </section>
+         <div className="cta-section">
                 <p className="cta-text">
                     **Ready to build something extraordinary?**
                 </p>
@@ -90,7 +93,7 @@ const About = () => {
                     Start a Project Today
                 </button>
             </div>
-        </section>
+        </>
     )
 }
 

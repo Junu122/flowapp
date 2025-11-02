@@ -6,7 +6,7 @@ import landscapeIcon from '../../../public/images/postimg1.jpg';
 
 const services = [
     {
-        icon: '/images/portfolio-large-2.jpg', // Placeholder for an icon (e.g., design icon)
+        icon: '/images/drawing.png', // Placeholder for an icon (e.g., design icon)
         title: 'Architectural Design',
         description: 'Comprehensive design solutions for residential and commercial projects — from concept development to execution drawings, balancing aesthetics, function, and context.'
     },
@@ -57,7 +57,7 @@ const ServiceList = () => {
             <div className="services-grid">
                 {services.map((service, index) => (
                     <div key={index} className="service-card">
-                        <div className="service-icon"><img src={service.icon} alt="" /></div>
+                      
                         <h3 className="service-card-title">{service.title}</h3>
                         <p className="service-card-description">{service.description}</p>
                         {/* Optional: Add a "Learn More" button */}

@@ -25,8 +25,8 @@ const Footer = () => {
         <div className="footer-section">
           <h4>Connect</h4>
           <div className="footer-social">
-            <a href="#" aria-label="Instagram">📷</a>
-            <a href="#" aria-label="LinkedIn">💼</a>
+            <a href="https://www.instagram.com/flowarchitects/" aria-label="Instagram"><img src="/images/instagram.png" alt="" style={{width:"34px"}}/></a>
+            <a href="mailto:flowarch.architects@gmail.com" aria-label="LinkedIn"><img src="/images/gmail.png" alt="" style={{width:"34px"}}/></a>
             <a href="#" aria-label="Twitter">🐦</a>
           </div>
         </div>

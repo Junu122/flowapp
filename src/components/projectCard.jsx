@@ -21,10 +21,10 @@ const ProjectCard = ({ project, index }) => {
       transition={{ duration: 0.5, ease: 'easeOut', delay: index * 0.1 }}
     >
       <img src={project.image} alt={project.title} />
-      {/* <div className="project-info">
+      <div className="project-info">
         <h3>{project.title}</h3>
         <p>{project.location}</p>
-      </div> */}
+      </div>
     </motion.div>
   );
 };

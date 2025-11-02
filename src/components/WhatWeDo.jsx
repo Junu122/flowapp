@@ -39,8 +39,8 @@ const WhatWeDo = () => {
           </p>
         </div>
       </div>
-      <button className="more-button" onClick={() => navigate('/projects')}>
-        View All Projects
+      <button className="more-button" onClick={() => navigate('/services')}>
+        View All Services
       </button>
     </section>
   );
