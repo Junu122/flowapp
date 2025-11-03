@@ -26,15 +26,17 @@ const Footer = () => {
           <h4>Connect</h4>
           <div className="footer-social">
             <a href="https://www.instagram.com/flowarchitects/" aria-label="Instagram"><img src="/images/instagram.png" alt="" style={{width:"34px"}}/></a>
-            <a href="mailto:flowarch.architects@gmail.com" aria-label="LinkedIn"><img src="/images/gmail.png" alt="" style={{width:"34px"}}/></a>
-            <a href="#" aria-label="Twitter">🐦</a>
+            <a href="mailto:flowarch.architects@gmail.com" aria-label="gmail"><img src="/images/gmail.png" alt="" style={{width:"34px"}}/></a>
+            <a href="tel:+919947646299" aria-label="phone"><img src="/images/phone.png" alt="" style={{width:"34px"}}/></a>
           </div>
         </div>
 
         <div className="footer-address">
           <h4>Studio Address</h4>
-          <p>StudioArc Architects</p>
-          <p>Taliparamba, Kerala 670141</p>
+          <p>Flow Architects</p>
+          <p>Riverview arcade,Bypass Road,<br/>
+           kunthipuzha, Mannarkkad, palakkad,
+<br/>Kerala, India. Pin: 678582</p>
           <p>Phone: +91 98765 43210</p>
           <p>Email: studio@studioarc.com</p>
         </div>
