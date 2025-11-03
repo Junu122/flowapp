@@ -6,11 +6,13 @@ import AboutUs from './pages/AboutUs'
 import Footer from './components/footerComponent'
 import Services from './pages/Services'
 import ContactPage from './pages/ContactPage'
+import ScrollToTop from './components/ScrollToTop'
 function App() {
   const location = useLocation();
   return (
     <>
      <Preloader trigger={location.pathname} />
+     <ScrollToTop />
       <Navbar />
     
          <Routes>
