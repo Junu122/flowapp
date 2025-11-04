@@ -1,0 +1,14 @@
+/* --- Grid Container Styling --- */
+.project-grid-container {
+  padding: 40px 20px 80px; /* Padding for the entire section */
+  background-color: #ffffff; /* Off-white/light gray background for subtle contrast */
+}
+
+.grid {
+  display: grid;
+  /* Use a modern grid layout: 3 columns on desktop, 1 on mobile */
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 30px; /* Space between cards */
+  max-width: 1400px;
+  margin: 0 auto;
+}

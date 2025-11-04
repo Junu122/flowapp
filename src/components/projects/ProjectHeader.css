@@ -1,0 +1,75 @@
+/* --- Variables for easy theme adjustments --- */
+:root {
+  --primary-color: #e51d2d; /* A professional, slightly muted red */
+  --text-dark: #1a1a1a; /* Near-black for a softer look */
+  --background-light: #ffffff; /* Pure white */
+  --font-family: 'Arial', sans-serif; /* A clean, modern sans-serif font */
+}
+
+/* --- Header Container --- */
+.projects-header {
+  background-color: var(--background-light);
+  color: var(--text-dark);
+  padding: 80px 20px; /* Ample vertical padding for a grand, minimal feel */
+  text-align: center;
+  border-bottom: 2px solid #f0f0f0; /* Subtle separator line */
+}
+
+/* --- Content Alignment (optional but good practice) --- */
+.header-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* --- Main Title Styling (OUR PROJECTS) --- */
+.header-title {
+  font-size: 3.5rem; /* Large and impactful */
+  font-weight: 700; /* Bold */
+  letter-spacing: 12px; /* Wide spacing for a modern, architectural look */
+  margin: 0;
+  text-transform: uppercase; /* All caps */
+  line-height: 1;
+  padding: 40px;
+}
+
+/* --- Color Theme Application --- */
+.black-text {
+  color: var(--text-dark);
+}
+
+.red-text {
+  color: var(--primary-color);
+  /* You can add a subtle animation or hover effect to the red text for flair */
+  transition: color 0.3s ease;
+}
+
+.red-text:hover {
+  color: #c90e1e; /* Slightly darker red on hover */
+}
+
+/* --- Subtext Styling (DESIGN. VISION. REALITY.) --- */
+.header-subtext {
+  font-size: 1.1rem;
+  font-weight: 300; /* Light weight for contrast */
+  letter-spacing: 5px;
+  margin-top: 15px; /* Space it out from the main title */
+  color: #777; /* Subtle gray for contrast with the black */
+  text-transform: uppercase;
+}
+
+/* --- Responsive Adjustments --- */
+@media (max-width: 768px) {
+  .projects-header {
+    padding: 60px 15px;
+  }
+  
+  .header-title {
+    font-size: 2.5rem;
+    letter-spacing: 8px;
+  }
+  
+  .header-subtext {
+    font-size: 0.9rem;
+    letter-spacing: 3px;
+  }
+}

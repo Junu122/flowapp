@@ -6,7 +6,7 @@ const projects = [
   {
     title: 'Urban Nest',
     location: 'Mumbai, India',
-    image: 'https://demo.templatesjungle.com/modern/images/portfolio-thumb-6.jpg',
+    image: '/images/projectimg/G.png',
   },
   {
     title: 'Glass Pavilion',

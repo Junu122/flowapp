@@ -7,6 +7,7 @@ import Footer from './components/footerComponent'
 import Services from './pages/Services'
 import ContactPage from './pages/ContactPage'
 import ScrollToTop from './components/ScrollToTop'
+import ProjectPage from './pages/ProjectPage'
 function App() {
   const location = useLocation();
   return (
@@ -20,6 +21,8 @@ function App() {
         <Route path="/about" element={<AboutUs />} />
         <Route path="/services" element={<Services />} />
         <Route path="/contact" element={<ContactPage />} />
+         <Route path="/project" element={<ProjectPage />} />
+        
       </Routes>
       <Footer />
       
