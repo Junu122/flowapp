@@ -1,4 +1,5 @@
 import React from 'react';
+import {  useNavigate } from 'react-router-dom';
 import './hero.css';
 import { ParallaxBanner } from 'react-scroll-parallax';
 const Hero = () => {
@@ -10,6 +11,7 @@ const Hero = () => {
     scale: [1.05, 1, 'easeOutCubic'],
     shouldAlwaysCompleteAnimation: true,
   };
+  const navigate=useNavigate()
   return (
    <ParallaxBanner layers={[BannerLayer]} className="aspect-[2/1]">
   <section className="hero">
@@ -20,7 +22,7 @@ const Hero = () => {
           We design with intention—where form meets function, and every detail tells a story.
           Our architecture blends minimalism, sustainability, and timeless elegance to create environments that inspire.
         </p>
-        <button>View Projects</button>
+        <button onClick={()=>navigate("/project")}>View Projects</button>
       </div>
     </div>
   </section>
