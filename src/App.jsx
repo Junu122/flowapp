@@ -8,6 +8,7 @@ import Services from './pages/Services'
 import ContactPage from './pages/ContactPage'
 import ScrollToTop from './components/ScrollToTop'
 import ProjectPage from './pages/ProjectPage'
+import ProjectDetailPage from './pages/ProjectDetailPage'
 function App() {
   const location = useLocation();
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/services" element={<Services />} />
         <Route path="/contact" element={<ContactPage />} />
          <Route path="/project" element={<ProjectPage />} />
+         <Route path="/project/:projectid" element={<ProjectDetailPage />} />
         
       </Routes>
       <Footer />
