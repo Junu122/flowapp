@@ -1,6 +1,7 @@
 // src/components/ProjectGrid.js
 import React,{useState,useMemo} from 'react';
 import WorkCard from './WorkCard';
+import { motion, AnimatePresence } from 'framer-motion';
 import ProjectCard from '../projectCard';
 import { PROJECTS } from '../../data/projectdata'; // Import your data
 import './ProjectGrid.css';
@@ -40,8 +41,10 @@ const ProjectGrid = () => {
           </button>
         ))}
       </div>
-      <div className="grid">
-        {filteredProjects.map(project => (
+      <motion.div className="grid">
+        {filteredProjects.map((project,index) => (
+          <AnimatePresence
+          custom={0.4}>
           <WorkCard 
             key={project.id}
             id={project.id}
@@ -49,9 +52,11 @@ const ProjectGrid = () => {
             location={project.location}
             category={project.category}
             imageSrc={project.imageSrc}
+            index={index}
           />
+          </AnimatePresence>
         ))}
-      </div>
+      </motion.div>
     </section>
   );
 };
