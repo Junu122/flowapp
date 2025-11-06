@@ -1,6 +1,7 @@
 import React from 'react'
 import "./About.css"
 import { Parallax, ParallaxBanner } from 'react-scroll-parallax'
+import HeaderContainer from '../HeaderContainer'
 const About = () => {
     const teamMembers = [
         { name: 'Member 1', title: 'Chief Visionary Officer', bio: 'Driving our strategic direction and fostering a culture of innovation.', img: 'team-alice.jpg' },
@@ -30,16 +31,12 @@ const About = () => {
     };
     return (
         <>
-        <section className="about-us-container">
-            <div className="about-us-header">
-                <h1 className="header-title">
-                    <span>We are</span> <span className="highlight-text">Flow Architects</span>
-                </h1>
-                <p className="header-subtitle">
-                    Pioneering the future of digital solutions with passion, precision, and purpose.
-                </p>
-            </div>
+        
+          <HeaderContainer span1={"We are"} span2={"Flow Architects"} para={"Pioneering the future of digital solutions with passion, precision, and purpose."}/>
 
+      
+         
+                <section className="about-us-container">
             <div className="core-story-section">
                 <div className="story-image-box">
                     <ParallaxImage />

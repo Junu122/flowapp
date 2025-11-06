@@ -74,7 +74,109 @@ export const PROJECTS = [
       "/images/projectimg/auraclinic/D.png",
       "/images/projectimg/auraclinic/E.png",
       "/images/projectimg/auraclinic/F.png"
-        ]
-  }
-  // Add more projects here...
+    ]
+  },
+  {
+    id: 'p4',
+    title: 'SANDS MEDICAL CENTER',
+    location: 'MALAPURAM, KERALA',
+    category: 'COMMERCIAL',
+    imageSrc: '/images/projectimg/sandsmedical/5.jpg',
+    client: "DR.WASEEM",
+    area: "1202 SQFT",
+    description: "The design concept focuses on creating a modern minimal clinic that feels light, open, and welcoming.The layout is guided by clear circulation and clean lines, ensuring easy movement and functional efficiency.Spaces are visually connected through glass partitions allowing natural light to filter across the clinic, softening boundaries and creating a sense of openness.The interiors are envisioned as more than a clinical space—they are designed as a calmingexperience for both patients and practitioners.By avoiding the closed, restrictive feel of",
+    images: [
+      "/images/projectimg/sandsmedical/2.jpg",
+      "/images/projectimg/sandsmedical/3.jpg",
+      "/images/projectimg/sandsmedical/4.jpg",
+      "/images/projectimg/sandsmedical/5.jpg",
+      "/images/projectimg/sandsmedical/6.jpg",
+      "/images/projectimg/sandsmedical/7.jpg",
+      "/images/projectimg/sandsmedical/8.jpg",
+      "/images/projectimg/sandsmedical/9.jpg",
+      "/images/projectimg/sandsmedical/10.jpg",
+      "/images/projectimg/sandsmedical/11.jpg",
+      "/images/projectimg/sandsmedical/12.jpg",
+
+
+
+
+    ]
+  },
+  {
+    id: 'p5',
+    title: 'DIALYSIS CENTER',
+    location: 'MANNARKKAD, KERALA',
+    category: 'HEALTHCARE',
+    imageSrc:  "/images/projectimg/dialysiscenter/A.jpg",
+    client: "RAHMA FOUNDATION",
+    area: "8613 SQFT",
+    description: "The design of the Dialysis Center is guided by the idea of creating a healing and comforting environment that supports both patients and visitors. The architectural concept takes inspiration from the kidney and its purification process, expressed through a sculptural element beside the portico that not only symbolizes the organ but also serves as a structural support for the slab. The facade design features perforated screen walls that filter daylight and create an ever-changing play of shadows, colors, and reflections. These patterns bring warmth and softness to the minimal exterior while maintaining privacy for the interior spaces. All service functions are placed in the basement, ensuring a calm and organized patient zone above.Green spaces integrated across the site — both outdoors and within the interior — enhance the building’s connection to nature, improving air quality and overall well-being. Together, these elements create a functional, symbolic, and serene healthcare space rooted in the idea of purification and renewal.",
+    images: [
+      "/images/projectimg/dialysiscenter/A.jpg",
+      "/images/projectimg/dialysiscenter/B.jpg",
+      "/images/projectimg/dialysiscenter/C.jpg",
+      "/images/projectimg/dialysiscenter/D.jpg",
+      "/images/projectimg/dialysiscenter/E.jpg",
+      "/images/projectimg/dialysiscenter/F.jpg",
+      "/images/projectimg/dialysiscenter/G.jpg",
+      "/images/projectimg/dialysiscenter/H.jpg",
+      "/images/projectimg/dialysiscenter/I.jpg",
+      "/images/projectimg/dialysiscenter/J.jpg",
+    ]
+  },
+  {
+    id: 'p6',
+    title: 'ALI ASAGAR RESIDENCE',
+    location: 'MANNARKKAD, KERALA',
+    category: 'RESIDENTIAL',
+    imageSrc:  "/images/projectimg/aliasgar/1.jpg",
+    client: "ALI ASGAR",
+    area: "8613 SQFT",
+    description: "The design of the Dialysis Center is guided by the idea of creating a healing and comforting environment that supports both patients and visitors. The architectural concept takes inspiration from the kidney and its purification process, expressed through a sculptural element beside the portico that not only symbolizes the organ but also serves as a structural support for the slab. The facade design features perforated screen walls that filter daylight and create an ever-changing play of shadows, colors, and reflections. These patterns bring warmth and softness to the minimal exterior while maintaining privacy for the interior spaces. All service functions are placed in the basement, ensuring a calm and organized patient zone above.Green spaces integrated across the site — both outdoors and within the interior — enhance the building’s connection to nature, improving air quality and overall well-being. Together, these elements create a functional, symbolic, and serene healthcare space rooted in the idea of purification and renewal.",
+    images: [
+      "/images/projectimg/aliasgar/1.jpg",
+      "/images/projectimg/aliasgar/2.jpg",
+       "/images/projectimg/aliasgar/3.jpg",
+       "/images/projectimg/aliasgar/4.jpg",
+      "/images/projectimg/aliasgar/5.jpg",
+      "/images/projectimg/aliasgar/6.jpg",
+      "/images/projectimg/aliasgar/7.jpg",
+      "/images/projectimg/aliasgar/8.jpg",
+      "/images/projectimg/aliasgar/9.jpg",
+      "/images/projectimg/aliasgar/10.jpg",
+      "/images/projectimg/aliasgar/11.jpg",
+      "/images/projectimg/aliasgar/12.jpg",
+      "/images/projectimg/aliasgar/2.jpg",
+      "/images/projectimg/aliasgar/13.jpg",
+      "/images/projectimg/aliasgar/14.jpg",
+      "/images/projectimg/aliasgar/15.jpg",
+      
+    ]
+  },
+   {
+    id: 'p7',
+    title: 'ALI PT RESIDENCE',
+    location: 'MANNARKKAD, KERALA',
+    category: 'RESIDENTIAL',
+    imageSrc:  "/images/projectimg/alipt/1.jpg",
+    client: "ALI PT",
+    area: "8613 SQFT",
+    description: "The design of the Dialysis Center is guided by the idea of creating a healing and comforting environment that supports both patients and visitors. The architectural concept takes inspiration from the kidney and its purification process, expressed through a sculptural element beside the portico that not only symbolizes the organ but also serves as a structural support for the slab. The facade design features perforated screen walls that filter daylight and create an ever-changing play of shadows, colors, and reflections. These patterns bring warmth and softness to the minimal exterior while maintaining privacy for the interior spaces. All service functions are placed in the basement, ensuring a calm and organized patient zone above.Green spaces integrated across the site — both outdoors and within the interior — enhance the building’s connection to nature, improving air quality and overall well-being. Together, these elements create a functional, symbolic, and serene healthcare space rooted in the idea of purification and renewal.",
+    images: [
+      "/images/projectimg/alipt/1.jpg",
+      "/images/projectimg/alipt/2.jpg",
+       "/images/projectimg/alipt/3.jpg",
+       "/images/projectimg/alipt/4.jpg",
+      "/images/projectimg/alipt/5.jpg",
+      "/images/projectimg/alipt/6.jpg",
+      "/images/projectimg/alipt/7.jpg",
+      "/images/projectimg/alipt/8.jpg",
+      "/images/projectimg/alipt/9.jpg",
+      "/images/projectimg/alipt/10.jpg",
+      "/images/projectimg/alipt/11.jpg",
+      "/images/projectimg/alipt/12.jpg",
+    ]
+  },
+ 
 ];

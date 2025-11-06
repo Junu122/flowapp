@@ -11,7 +11,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: 'Helvetica Neue', sans-serif;
+  /* font-family: 'Helvetica Neue', sans-serif; */
+ 
 }
 
 .hero-overlay {
@@ -33,6 +34,7 @@
   font-size: 3rem;
   font-weight: 600;
   color: #000;
+  
 }
 
 .hero p {

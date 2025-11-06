@@ -37,13 +37,13 @@ const Footer = () => {
           <p>Riverview arcade,Bypass Road,<br/>
            kunthipuzha, Mannarkkad, palakkad,
 <br/>Kerala, India. Pin: 678582</p>
-          <p>Phone: +91 98765 43210</p>
-          <p>Email: studio@studioarc.com</p>
+          <p>Phone: +91 9947 646 299</p>
+          <p>Email: flowarch.architects@gmail.com</p>
         </div>
       </div>
 
       <div className="footer-bottom">
-        <p>&copy; {new Date().getFullYear()} StudioArc. All rights reserved.</p>
+        <p>&copy; {new Date().getFullYear()} Flow  Architects. All rights reserved.</p>
       </div>
     </footer>
   );

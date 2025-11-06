@@ -6,7 +6,7 @@ const ProjectsHeader = () => {
     <div className="projects-header">
       <div className="header-content">
         {/* The main heading is split to apply different colors */}
-        <h1 className="header-title">
+        <h1 className="project-header-title">
           <span className="black-text">OUR </span>
           <span className="red-text">PROJECTS</span>
         </h1>

@@ -1,17 +1,33 @@
 .what-we-do {
   background-color: #ffffff;
-  padding: 4rem 2rem;
+  padding: 6px;
   text-align: center;
-  font-family: 'Helvetica Neue', sans-serif;
+
 }
 
 .what-we-do h2 {
-     font-family: 'Helvetica Neue', sans-serif;
+    
   font-size: 3rem;
-  margin-bottom: 2rem;
-  color: #111;
+  margin-top: 2rem;
+  color: #000;
+  margin-bottom: 4rem;
   letter-spacing: 1px;
   font-weight: bold;
+
+  position: relative; /* Establish position context for the ::after element */
+  display: inline-block; /* Ensure the underline only spans the text width */
+  padding-bottom: 5px;
+}
+
+.what-we-do h2::after{
+    content: ''; /* Required for pseudo-elements */
+  position: absolute;
+  bottom: -4px;
+  left: 50%; /* Center the underline */
+  transform: translateX(-50%);
+  width: 80%; /* Adjust this width for desired length (e.g., 60px) */
+  height: 4px; /* Thickness of the underline */
+  background-color: #e51d2d;
 }
 
 .services-grid {

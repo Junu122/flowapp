@@ -8,9 +8,23 @@
   font-size: 3rem;
   margin-top: 2rem;
   color: #000;
- font-family: 'Helvetica Neue', sans-serif;
+  margin-bottom: 4rem;
   letter-spacing: 1px;
   font-weight: bold;
+
+  position: relative; /* Establish position context for the ::after element */
+  display: inline-block; /* Ensure the underline only spans the text width */
+  padding-bottom: 5px;
+}
+.projects h2::after {
+  content: ''; /* Required for pseudo-elements */
+  position: absolute;
+  bottom: -4px;
+  left: 50%; /* Center the underline */
+  transform: translateX(-50%);
+  width: 80%; /* Adjust this width for desired length (e.g., 60px) */
+  height: 4px; /* Thickness of the underline */
+  background-color: #e51d2d; /* Your accent red color */
 }
 
 .projects-grid {
@@ -25,6 +39,7 @@
   }
   .projects h2{
     font-size: 24px;
+    margin-bottom: 2rem;
   }
 }
 

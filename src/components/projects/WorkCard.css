@@ -70,7 +70,7 @@
           font-weight: 700;
           color: #111827;
           transition: color 0.3s ease;
-           font-family: 'Helvetica Neue', sans-serif;
+          
         }
 
         .work-card:hover .work-card-title {

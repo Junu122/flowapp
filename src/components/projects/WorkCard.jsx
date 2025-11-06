@@ -12,7 +12,7 @@ const WorkCard = ({ id, title, location, category, imageSrc }) => {
   }
   return (
     <motion.div className="work-card">
-      <div className="work-card-image-container">
+      <div onClick={()=>navigate(`/project/${id}`)} className="work-card-image-container">
         <img
           src={imageSrc || 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80'}
           alt={title}
@@ -26,21 +26,21 @@ const WorkCard = ({ id, title, location, category, imageSrc }) => {
         <div className="work-card-overlay" />
       </div>
 
-      <div className="work-card-content">
+      {/* <div className="work-card-content">
         <h3 className="work-card-title">{title}</h3>
         
-        {/* <div className="work-card-location">
+        <div className="work-card-location">
           <MapPin className="work-card-icon" />
           <span>{location}</span>
-        </div> */}
+        </div>
 
         <button onClick={()=>navigate(`/project/${id}`)} className="work-card-button">
           View Project
           <ArrowRight className="work-card-button-icon" />
         </button>
-      </div>
+      </div> */}
 
-      <div className="work-card-accent" />
+      {/* <div className="work-card-accent" /> */}
       </motion.div>
   );
 };

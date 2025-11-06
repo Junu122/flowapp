@@ -17,7 +17,7 @@
     background-color: var(--background-light);
     color: var(--text-dark);
     padding: 80px 5%; /* Generous padding */
-    font-family: var(--font-body);
+  
     line-height: 1.6;
     overflow-x: hidden;
 }
@@ -32,7 +32,7 @@
 }
 
 .service-intro-title {
-    font-family: var(--font-heading);
+  
     font-size: 3.2rem;
     margin-bottom: 15px;
     font-weight: 800;
@@ -85,7 +85,7 @@
 }
 
 .service-card-title {
-    font-family: var(--font-heading);
+  
     font-size: 1.6rem;
     color: var(--text-dark);
     margin-bottom: 15px;
@@ -138,7 +138,7 @@
 
 .service-cta-text {
     font-size: 1.8rem;
-    font-family: var(--font-heading);
+
     margin-bottom: 25px;
     color: var(--background-light);
     font-weight: 700;

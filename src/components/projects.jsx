@@ -53,6 +53,7 @@ const Projects = () => {
   return (
     <section className="projects">
       <h2>Featured Projects</h2>
+      
       <div className="projects-grid">
         {projects.map((project, index) => (
           <ProjectCard key={index} project={project} index={index} />

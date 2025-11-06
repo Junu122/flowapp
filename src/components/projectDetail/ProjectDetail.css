@@ -152,8 +152,8 @@
 }
 
 .gallery-item:nth-child(3n+1) {
-    /* Make every 3rd image stretch across the grid (e.g., for a panorama shot) */
-    grid-column: 1 / -1; 
+    height: auto;
+    grid-column: 1/-1; 
 }
 
 .gallery-image {
@@ -162,11 +162,13 @@
   object-fit: cover;
   display: block;
   transition: opacity 0.3s;
+  
 }
 
 .gallery-item {
-    overflow: hidden;
+    overflow: visible;
     height: auto;
+
 }
 
 .gallery-item:hover .gallery-image {

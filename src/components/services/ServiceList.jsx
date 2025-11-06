@@ -3,7 +3,7 @@ import './ServiceList.css';
 import archIcon from '../../../public/images/postimg1.jpg';
 import interiorIcon from '../../../public/images/postimg1.jpg';
 import landscapeIcon from '../../../public/images/postimg1.jpg';
-
+import HeaderContainer from '../HeaderContainer';
 const services = [
     {
         icon: '/images/drawing.png', // Placeholder for an icon (e.g., design icon)
@@ -44,16 +44,9 @@ const services = [
 
 const ServiceList = () => {
     return (
+        <>
+        <HeaderContainer span1={"Our"} span2={"Services"} para={" Discover a suite of services designed to elevate your business, enhance your digital presence, and achieve measurable growth. We combine innovation with meticulous execution."}/>
         <section className="service-intro-container">
-            <div className="service-intro-header">
-                <h1 className="service-intro-title">
-                    Our <span className="highlight-red">Services</span>
-                </h1>
-                <p className="service-intro-subtitle">
-                    Discover a suite of services designed to elevate your business, enhance your digital presence, and achieve measurable growth. We combine innovation with meticulous execution.
-                </p>
-            </div>
-
             <div className="services-grid">
                 {services.map((service, index) => (
                     <div key={index} className="service-card">
@@ -77,6 +70,7 @@ const ServiceList = () => {
                 </button>
             </div>
         </section>
+        </>
     );
 };
 

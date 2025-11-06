@@ -3,7 +3,7 @@
   --primary-color: #e51d2d; /* A professional, slightly muted red */
   --text-dark: #1a1a1a; /* Near-black for a softer look */
   --background-light: #ffffff; /* Pure white */
-  --font-family: 'Arial', sans-serif; /* A clean, modern sans-serif font */
+  /* A clean, modern sans-serif font */
 }
 
 /* --- Header Container --- */
@@ -22,7 +22,7 @@
 }
 
 /* --- Main Title Styling (OUR PROJECTS) --- */
-.header-title {
+.project-header-title {
   font-size: 3.5rem; /* Large and impactful */
   font-weight: 700; /* Bold */
   letter-spacing: 12px; /* Wide spacing for a modern, architectural look */
@@ -63,7 +63,8 @@
     padding: 60px 15px;
   }
   
-  .header-title {
+.project-header-title {
+   
     font-size: 2.5rem;
     letter-spacing: 8px;
   }

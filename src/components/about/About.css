@@ -8,8 +8,9 @@
     --card-bg: #F8F8F8; /* Very subtle off-white for card backgrounds */
     --border-radius-lg: 12px;
     --box-shadow-light: 0 5px 20px rgba(0, 0, 0, 0.08); /* Light, professional shadow */
-    --font-heading: 'Poppins', sans-serif; 
-    --font-body: 'Roboto', sans-serif;
+    --font-heading: 'Helvetica Neue', sans-serif; 
+    --font-body: 'Helvetica Neue', sans-serif;
+    
 }
 
 /* Global Container Styles */
@@ -17,7 +18,7 @@
     background-color: var(--background-light);
     color: var(--text-dark);
     padding: 60px 5%; 
-    font-family: var(--font-body);
+   
     line-height: 1.6;
     overflow-x: hidden;
 }
@@ -30,7 +31,7 @@
 }
 
 .header-title {
-    font-family: var(--font-heading);
+   
     font-size: 3.5rem; 
     margin-bottom: 15px;
     font-weight: 800;
@@ -107,7 +108,7 @@
 } */
 
 .section-heading {
-    font-family: var(--font-heading);
+   
     font-size: 2.5rem;
     margin-bottom: 20px;
     color: var(--text-dark);
@@ -137,7 +138,7 @@
 /* --- Team Section --- */
 .section-heading-centered {
     text-align: center;
-    font-family: var(--font-heading);
+
     font-size: 2.5rem;
     margin-bottom: 60px;
 }
@@ -225,7 +226,7 @@
 
 .cta-text {
     font-size: 1.8rem;
-    font-family: var(--font-heading);
+  
     margin-bottom: 25px;
     color: #FFFFFF;
     font-weight: 700;

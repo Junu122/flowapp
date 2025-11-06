@@ -17,7 +17,7 @@
     background-color: var(--background-light);
     color: var(--text-dark);
     padding: 80px 5%; 
-    font-family: var(--font-body);
+ 
     line-height: 1.6;
     overflow-x: hidden;
 }
@@ -73,7 +73,7 @@
     align-items: center;
     justify-content: center;
     
-    font-family: var(--font-heading);
+   
     font-size: 1.2rem;
     font-weight: 700;
     color: var(--primary-color);
@@ -152,7 +152,7 @@
 }
 
 .step-title {
-    font-family: var(--font-heading);
+   
     font-size: 1.7rem;
     color: var(--text-dark);
     margin-bottom: 10px;
