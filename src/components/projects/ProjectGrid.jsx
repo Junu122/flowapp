@@ -42,9 +42,9 @@ const ProjectGrid = () => {
         ))}
       </div>
       <motion.div className="grid">
+        <AnimatePresence mode="popLayout">
         {filteredProjects.map((project,index) => (
-          <AnimatePresence
-          custom={0.4}>
+          
           <WorkCard 
             key={project.id}
             id={project.id}
@@ -54,8 +54,9 @@ const ProjectGrid = () => {
             imageSrc={project.imageSrc}
             index={index}
           />
-          </AnimatePresence>
+      
         ))}
+            </AnimatePresence>
       </motion.div>
     </section>
   );

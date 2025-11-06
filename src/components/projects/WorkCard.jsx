@@ -12,38 +12,42 @@ const WorkCard = ({ index,id, title, location, category, imageSrc }) => {
   }
 
 const cardVariants = {
-  hidden: { 
+  // Use a custom function to randomly start the card off-screen
+  hidden: (i) => ({ 
     opacity: 0, 
-    y: 500 // Start slightly below for a nice slide-up effect
-  },
+    x: i % 2 === 0 ? -200 : 200, // Even index slides from left, odd from right
+    y: 0 
+  }),
   visible: (i) => ({ 
     opacity: 1, 
-    y: 0, 
+    x: 0, 
     transition: {
-      // Use a slightly longer duration for smoothness
-      duration: 0.6,
-      ease: "easeInOut",
-      // Reduced stagger delay for a quicker "wave"
-      delay: i * 0.15 
+      type: "tween",
+      duration: 0.7,
+      ease: "easeOut",
+      delay: i * 0.12 // Staggered entry
     }
   }),
   exit: { 
     opacity: 0, 
-    y: -200, // Slide left off-screen on exit
+    x: -200, // Fade out while sliding up slightly
     transition: { 
-      duration: 0.4, // A clear duration for the exit animation
-      ease: "easeOut" // Accelerate as it leaves
+      duration: 0.3
     } 
   }
 };
+
+
   return (
     <motion.div
-    className="work-card" // Assuming you have a CSS class for your card
+    className="work-card"
+      layout
+    custom={index} // Assuming you have a CSS class for your card
       variants={cardVariants}
       initial="hidden" // Start in the hidden state
       animate="visible" // Animate to the visible state on mount
       exit="exit"
-      custom={index}
+      
     >
       <div onClick={()=>navigate(`/project/${id}`)} className="work-card-image-container">
         <img
