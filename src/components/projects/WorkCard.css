@@ -34,13 +34,18 @@
         .work-card-badge {
           position: absolute;
           top: 16px;
-          left: 16px;
+          left: 0;
+          width: 100%;
+          text-align: center;
+          
+
         }
 
         .work-card-category {
           display: inline-block;
           border-radius: 9999px;
-          background-color: rgba(255, 255, 255, 0.9);
+          background-color: rgba(255, 255, 255, 0.4);
+          /* background: transparent; */
           backdrop-filter: blur(4px);
           padding: 6px 16px;
           font-size: 14px;
@@ -129,4 +134,10 @@
 
         .work-card:hover .work-card-accent {
           width: 100%;
+        }
+
+        @media (max-width:768px){
+             .work-card{
+              max-width: 650px;
+             }
         }

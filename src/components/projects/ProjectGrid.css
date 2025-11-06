@@ -12,3 +12,65 @@
   max-width: 1400px;
   margin: 0 auto;
 }
+
+.category-filter-bar {
+  display: flex;
+  flex-wrap: wrap; /* Allows buttons to wrap on smaller screens */
+  gap: 15px;
+  max-width: 1400px;
+  margin: 0 auto 30px; /* Center the bar and add space below */
+  justify-content: center; /* Center buttons horizontally */
+}
+
+.category-filter-bar button {
+  padding: 8px 16px;
+  border: 2px solid #333; /* Dark border */
+  border-radius: 25px; /* Rounded pill shape */
+  background-color: transparent;
+  color: #333;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  font-size: 10px;
+  white-space: nowrap; /* Smooth transition for hover/active */
+}
+
+.category-filter-bar button:hover {
+  background-color: #eee;
+}
+
+/* Style for the currently active/selected button */
+.category-filter-bar button.active-filter {
+  background-color: #333; /* Highlight active button with a dark fill */
+  color: #ffffff; /* White text on dark fill */
+  border-color: #333; 
+}
+
+/* @media (max-width: 400px) {
+ 
+    .category-filter-bar {
+        display: flex;
+        flex-wrap: wrap;
+ 
+    
+   
+        gap: 10px; 
+     
+        justify-content: unset; 
+        padding: 0 10px; 
+    }
+
+    .category-filter-bar button {
+
+        width: 100%;
+        text-align: center;
+
+        padding: 6px 8px; 
+        font-size: 0.8rem;
+    }
+
+    
+    .grid {
+        gap: 20px;
+    }
+} */

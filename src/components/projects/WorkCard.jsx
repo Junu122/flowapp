@@ -19,11 +19,14 @@ const WorkCard = ({ id, title, location, category, imageSrc }) => {
           className="work-card-image"
         />
         
-        {/* <div className="work-card-badge">
-          <span className="work-card-category">{category}</span>
-        </div> */}
+        <div className="work-card-badge">
+          <span className="work-card-category">{title}</span>
+        </div>
 
-        <div className="work-card-overlay" />
+        <div className="work-card-overlay">
+          
+          </div>
+         
       </div>
 
       {/* <div className="work-card-content">
