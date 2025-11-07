@@ -80,7 +80,7 @@ CSS STRUCTURE:
 
 ------------------------------------------------*/
 body{
-  font-family:'Helvetica Neue', sans-serif;
+  font-family:gotham;
 }
 img {
   display: inline-block;
