@@ -372,7 +372,7 @@ export const PROJECTS = [
 
     ]
   },
-   {
+  {
     id: 'p16',
     title: 'COMMERCIAL PALAKKAD',
     location: 'PALAKKAD, KERALA',
@@ -389,6 +389,85 @@ export const PROJECTS = [
       "/images/projectimg/commercial-palakkad/6.jpg",
       "/images/projectimg/commercial-palakkad/3.jpg",
 
+
+    ]
+  },
+  {
+    id: 'p17',
+    title: 'AONE',
+    location: 'PALAKKAD, KERALA',
+    category: 'COMMERCIAL',
+    imageSrc: "/images/projectimg/AONE/VIEW 1.jpg",
+    client: "RAMSHAD",
+    area: "8613 SQFT",
+    description: "The design of the Dialysis Center is guided by the idea of creating a healing and comforting environment that supports both patients and visitors. The architectural concept takes inspiration from the kidney and its purification process, expressed through a sculptural element beside the portico that not only symbolizes the organ but also serves as a structural support for the slab. The facade design features perforated screen walls that filter daylight and create an ever-changing play of shadows, colors, and reflections. These patterns bring warmth and softness to the minimal exterior while maintaining privacy for the interior spaces. All service functions are placed in the basement, ensuring a calm and organized patient zone above.Green spaces integrated across the site — both outdoors and within the interior — enhance the building’s connection to nature, improving air quality and overall well-being. Together, these elements create a functional, symbolic, and serene healthcare space rooted in the idea of purification and renewal.",
+    images: [
+      "/images/projectimg/AONE/VIEW 1.jpg",
+      "/images/projectimg/AONE/VIEW 2.jpg",
+      "/images/projectimg/AONE/VIEW 3.jpg",
+      "/images/projectimg/AONE/VIEW 4.jpg",
+
+
+    ]
+  },
+  {
+    id: 'p18',
+    title: 'MOJO MOTORS',
+    location: 'PALAKKAD, KERALA',
+    category: 'COMMERCIAL',
+    imageSrc: "/images/projectimg/MOJO-MOTORS/1.jpg",
+    client: "RAMSHAD",
+    area: "8613 SQFT",
+    description: "The design of the Dialysis Center is guided by the idea of creating a healing and comforting environment that supports both patients and visitors. The architectural concept takes inspiration from the kidney and its purification process, expressed through a sculptural element beside the portico that not only symbolizes the organ but also serves as a structural support for the slab. The facade design features perforated screen walls that filter daylight and create an ever-changing play of shadows, colors, and reflections. These patterns bring warmth and softness to the minimal exterior while maintaining privacy for the interior spaces. All service functions are placed in the basement, ensuring a calm and organized patient zone above.Green spaces integrated across the site — both outdoors and within the interior — enhance the building’s connection to nature, improving air quality and overall well-being. Together, these elements create a functional, symbolic, and serene healthcare space rooted in the idea of purification and renewal.",
+    images: [
+      "/images/projectimg/MOJO-MOTORS/1.jpg",
+      "/images/projectimg/MOJO-MOTORS/2.jpg",
+      "/images/projectimg/MOJO-MOTORS/3.jpg",
+      "/images/projectimg/MOJO-MOTORS/4.jpg",
+      "/images/projectimg/MOJO-MOTORS/5.jpg",
+
+
+    ]
+  },
+  {
+    id: 'p19',
+    title: 'NEW STAR MOTORS',
+    location: 'PERINTHALMANNA, KERALA',
+    category: 'COMMERCIAL',
+    imageSrc: "/images/projectimg/NEW-STAR-MOTORS/1.jpg",
+    client: "RAMSHAD",
+    area: "8613 SQFT",
+    description: "The design of the Dialysis Center is guided by the idea of creating a healing and comforting environment that supports both patients and visitors. The architectural concept takes inspiration from the kidney and its purification process, expressed through a sculptural element beside the portico that not only symbolizes the organ but also serves as a structural support for the slab. The facade design features perforated screen walls that filter daylight and create an ever-changing play of shadows, colors, and reflections. These patterns bring warmth and softness to the minimal exterior while maintaining privacy for the interior spaces. All service functions are placed in the basement, ensuring a calm and organized patient zone above.Green spaces integrated across the site — both outdoors and within the interior — enhance the building’s connection to nature, improving air quality and overall well-being. Together, these elements create a functional, symbolic, and serene healthcare space rooted in the idea of purification and renewal.",
+    images: [
+      "/images/projectimg/NEW-STAR-MOTORS/1.jpg",
+      "/images/projectimg/NEW-STAR-MOTORS/2.jpg",
+      "/images/projectimg/NEW-STAR-MOTORS/3.jpg",
+
+
+    ]
+  },
+  {
+    id: 'p20',
+    title: 'KIOSK DUBAI ',
+    location: 'DUBAI,UAE',
+    category: 'INTERIOR',
+    imageSrc: "/images/projectimg/KIOSK-DUBAI/3.jpg",
+    client: "RAMSHAD",
+    area: "8613 SQFT",
+    description: "The design of the Dialysis Center is guided by the idea of creating a healing and comforting environment that supports both patients and visitors. The architectural concept takes inspiration from the kidney and its purification process, expressed through a sculptural element beside the portico that not only symbolizes the organ but also serves as a structural support for the slab. The facade design features perforated screen walls that filter daylight and create an ever-changing play of shadows, colors, and reflections. These patterns bring warmth and softness to the minimal exterior while maintaining privacy for the interior spaces. All service functions are placed in the basement, ensuring a calm and organized patient zone above.Green spaces integrated across the site — both outdoors and within the interior — enhance the building’s connection to nature, improving air quality and overall well-being. Together, these elements create a functional, symbolic, and serene healthcare space rooted in the idea of purification and renewal.",
+    images: [
+      "/images/projectimg/KIOSK-DUBAI/3.jpg",
+      "/images/projectimg/KIOSK-DUBAI/4.jpg",
+      "/images/projectimg/KIOSK-DUBAI/5.jpg",
+      "/images/projectimg/KIOSK-DUBAI/6.jpg",
+      "/images/projectimg/KIOSK-DUBAI/7.jpg",
+      "/images/projectimg/KIOSK-DUBAI/8.jpg",
+      "/images/projectimg/KIOSK-DUBAI/9.jpg",
+      "/images/projectimg/KIOSK-DUBAI/10.jpg",
+      "/images/projectimg/KIOSK-DUBAI/11.jpg",
+      "/images/projectimg/KIOSK-DUBAI/12.jpg",
+      "/images/projectimg/KIOSK-DUBAI/13.jpg",
+     
 
     ]
   },
