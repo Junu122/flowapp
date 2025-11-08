@@ -42,24 +42,9 @@
 }
 
 /* Responsive adjustments for smaller screens */
-@media (max-width: 900px) {
-  .whatwedo-grid {
-    /* Stack cards in 1 column on smaller screens */
-    grid-template-columns: 1fr; 
-  }
-}
 
-@media(max-width:768px){
-  .services-main-title{
-    font-size: 2rem;
-  }
-}
 
-@media(max-width:480px){
-  .services-main-title{
-    font-size: 24px;
-  }
-}
+
 
 
 /* --- Individual Service Card Style --- */
@@ -120,4 +105,38 @@
   text-decoration: none;
   border-radius: 4px;
   transition: background-color 0.3s ease;
+}
+
+
+
+
+
+@media (max-width: 900px) {
+  .whatwedo-grid {
+    /* Stack cards in 1 column on smaller screens */
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+
+@media(max-width:768px){
+  .services-main-title{
+    font-size: 2rem;
+  }
+  .service-title{
+    font-size: 14px;
+    padding: 5px;
+  }
+}
+
+@media(max-width:480px){
+  .services-main-title{
+    font-size: 24px;
+  }
+  .services-container{
+      padding: 80px 10px;
+  }
+  .whatwedo-grid{
+    gap: 12px;
+  }
 }

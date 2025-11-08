@@ -23,24 +23,40 @@ const servicesData = [
     title: 'Landscape Design',
     description: "Designing environments that prioritize energy efficiency, minimize environmental impact, and maximize the long-term value of your investment.",
   },
+    {
+    icon: '/images/renovation.avif', // Replace with an actual icon/image component or URL
+    title: 'Renovation & Adaptive Reuse',
+    description: "Designing environments that prioritize energy efficiency, minimize environmental impact, and maximize the long-term value of your investment.",
+  },
+     {
+    icon: '/images/design-development.avif', // Replace with an actual icon/image component or URL
+    title: 'Design Development & Technical Detailing',
+    description: "Designing environments that prioritize energy efficiency, minimize environmental impact, and maximize the long-term value of your investment.",
+  },
+    {
+    icon: '/images/visualization.avif', // Replace with an actual icon/image component or URL
+    title: 'Visualization & 3D Modelling',
+    description: "Designing environments that prioritize energy efficiency, minimize environmental impact, and maximize the long-term value of your investment.",
+  },
+
 ];
 
 const WhatWeDo = () => {
   const navigate=useNavigate()
   return (
     <div className="services-container">
-      <h2 className="services-main-title">Our  Architectural Services</h2>
+      <h2 className="services-main-title">Our   Services</h2>
       <div className="whatwedo-grid">
         {servicesData.map((service, index) => (
           <div key={index} className="whatwedo-card">
             {/* The icon is rendered large and bold for visual impact */}
             <div className="service-icon"><img src={service.icon} alt="" /></div>
             <h3 className="service-title">{service.title}</h3>
-            <p className="service-description">{service.description}</p>
+            {/* <p className="service-description">{service.description}</p> */}
           </div>
         ))}
       </div>
-      <button onClick={()=>navigate("/services")}  className='service-button'>All Services</button>
+      <button onClick={()=>navigate("/services")}  className='service-button'>View all Services</button>
     </div>
   );
 };

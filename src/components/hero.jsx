@@ -5,7 +5,7 @@ import { ParallaxBanner } from 'react-scroll-parallax';
 const Hero = () => {
     const  BannerLayer = {
     image:
-      '/images/gemini.png',
+      '/images/heroimg2.avif',
     translateY: [0, 50],
     opacity: [1, 0.3],
     scale: [1.05, 1, 'easeOutCubic'],
