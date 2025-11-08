@@ -28,7 +28,7 @@ const ProjectCard = ({ project, index }) => {
       variants={cardVariants}
       transition={{ duration: 0.8, ease: 'easeOut', delay: index * 0.1 }}
     >
-      <img src={project?.image} alt={project?.title} />
+      <img src={project} alt={project?.title} />
       {/* <div className="project-info">
         <h3>{project?.title}</h3>
         <p>{project?.location}</p>

@@ -1,104 +1,123 @@
-.what-we-do {
-  background-color: #ffffff;
-  padding: 6px;
+/* --- Global Container and Typography --- */
+
+.services-container {
+  /* Enforce white background and black text as requested */
+  background-color: white;
+  color: black;
+  
+  /* Modern layout padding and centering */
+  padding: 80px 40px;
+  max-width: 1200px;
+  margin: 0 auto;
   text-align: center;
-
 }
 
-.what-we-do h2 {
-    
-  font-size: 3rem;
-  margin-top: 2rem;
-  color: #000;
-  margin-bottom: 4rem;
+.services-main-title {
+  font-size: 3rem; /* Large, attention-seeking title */
+  font-weight: 800;
+  margin-bottom: 50px;
+  text-transform: capitalize;
   letter-spacing: 1px;
-  font-weight: bold;
-
-  position: relative; /* Establish position context for the ::after element */
-  display: inline-block; /* Ensure the underline only spans the text width */
-  padding-bottom: 5px;
+  color: #061a33;
+    position: relative; /* Establish position context for the ::after element */
+  display: inline-block;
 }
-
-.what-we-do h2::after{
-    content: ''; /* Required for pseudo-elements */
+.services-main-title::after {
+  content: ''; /* Required for pseudo-elements */
   position: absolute;
   bottom: -4px;
   left: 50%; /* Center the underline */
   transform: translateX(-50%);
   width: 80%; /* Adjust this width for desired length (e.g., 60px) */
   height: 4px; /* Thickness of the underline */
-  background-color: #e51d2d;
+  background-color: #e51d2d; 
+}
+/* --- Service Grid Layout --- */
+
+.whatwedo-grid {
+  display: grid;
+  /* Creates 3 columns of equal width */
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 30px; /* Space between the cards */
 }
 
-.services-grid {
-  display: flex;
-  justify-content: space-around;
-  gap: 2rem;
-  flex-wrap: wrap;
-  margin-bottom: 2rem;
-}
-
-.service-card {
-  background-color: #f9f9f9;
-  border: 1px solid #eee;
-  padding: 2rem;
-  width: 400px;
-  border-radius: 8px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.04);
-  transition: transform 0.3s ease;
-}
-
-.service-card:hover {
-  transform: translateY(-5px);
-  cursor: pointer;
-}
-
-.service-icon {
-  width: 100%;
-  height: auto;
-  margin-bottom: 1rem;
-}
-
-.service-card h3 {
-  font-size: 1.4rem;
-  margin-bottom: 1rem;
-  color: #222;
-}
-
-.service-card p {
-  font-size: 1rem;
-  color: #555;
-  line-height: 1.6;
-}
-
-.more-button {
-  padding: 0.8rem 2rem;
-  font-size: 1rem;
-  background-color: #000;
-  color: #fff;
-  border: none;
-  cursor: pointer;
-  border-radius: 4px;
-  transition: background 0.3s ease;
-}
-
-.more-button:hover {
-  background-color: #333;
-}
-
-/* Responsive */
-@media (max-width: 768px) {
-  .services-grid {
-    flex-direction: column;
-    align-items: center;
+/* Responsive adjustments for smaller screens */
+@media (max-width: 900px) {
+  .whatwedo-grid {
+    /* Stack cards in 1 column on smaller screens */
+    grid-template-columns: 1fr; 
   }
+}
 
-  .service-card {
-    width: 100%;
-    max-width: 400px;
-    padding: 4px;
+@media(max-width:768px){
+  .services-main-title{
+    font-size: 2rem;
   }
-  .what-we-do h2 {
+}
+
+@media(max-width:480px){
+  .services-main-title{
     font-size: 24px;
   }
+}
+
+
+/* --- Individual Service Card Style --- */
+
+.whatwedo-card {
+  /* Clean design foundation */
+  background-color: #f8f8f8; /* Very light grey for a subtle lift off the white background */
+ 
+  border-radius: 12px;
+  text-align: center;
+  
+  /* Modern Shadow for depth and attention */
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  
+  /* Smooth transition for hover effect */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Attention-seeking Hover Effect */
+.whatwedo-card:hover {
+  transform: translateY(-5px); /* Lift the card slightly */
+  /* Stronger, more noticeable shadow on hover */
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1); 
+}
+
+/* --- Content Styling --- */
+
+.service-icon {
+  font-size: 3rem; /* Very large icon/emoji for immediate focus */
+  line-height: 1;
+  margin-bottom: 20px;
+  /* Use a color if you replace the emoji with a font icon */
+  /* color: #007bff; */ 
+}
+
+.service-title {
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}
+
+.service-description {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #333; /* Slightly lighter black for body text readability */
+  padding: 10px;
+}
+
+.service-button{
+  display: inline-block;
+  margin-top: 2rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #111;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
 }

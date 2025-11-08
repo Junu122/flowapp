@@ -7,42 +7,41 @@ import archIcon from '../../public/images/main-banner1.jpg';
 import interiorIcon from '../../public/images/main-banner1.jpg';
 import landscapeIcon from '../../public/images/main-banner1.jpg';
 
-const WhatWeDo = () => {
-  const navigate = useNavigate();
+const servicesData = [
+  {
+    icon: '/images/123.jpeg', // Replace with an actual icon/image component or URL
+    title: 'Architectural Design',
+    description: "We transform visions into detailed, buildable blueprints. Our approach blends aesthetic appeal with structural integrity and sustainability.",
+  },
+  {
+    icon: '/images/interior.avif', // Replace with an actual icon/image component or URL
+    title: 'Interior Design',
+    description: "From groundbreaking to ribbon-cutting, we ensure projects are delivered on time, within budget, and to the highest standards of quality.",
+  },
+  {
+    icon: '/images/landscape.avif', // Replace with an actual icon/image component or URL
+    title: 'Landscape Design',
+    description: "Designing environments that prioritize energy efficiency, minimize environmental impact, and maximize the long-term value of your investment.",
+  },
+];
 
+const WhatWeDo = () => {
+  const navigate=useNavigate()
   return (
-    <section className="what-we-do">
-      <h2>What We Do</h2>
-      <div className="services-grid">
-        <div className="service-card">
-          <img src={archIcon} alt="Architectural Design" className="service-icon" />
-          <h3>Architectural Design</h3>
-          <p>
-            Comprehensive design solutions for residential and commercial projects — from concept
-            development to execution drawings, balancing aesthetics, function, and context.
-          </p>
-        </div>
-        <div className="service-card">
-          <img src={interiorIcon} alt="Interior Design" className="service-icon" />
-          <h3>Interior Design</h3>
-          <p>
-            Tailored interiors for homes, offices, and clinics that combine clarity, comfort, and cohesive
-            spatial design.
-          </p>
-        </div>
-        <div className="service-card">
-          <img src={landscapeIcon} alt="Landscape Design" className="service-icon" />
-          <h3>Landscape Design</h3>
-          <p>
-            Site-responsive landscape layouts that connect architecture with its surroundings through
-            thoughtful planning.
-          </p>
-        </div>
+    <div className="services-container">
+      <h2 className="services-main-title">Our  Architectural Services</h2>
+      <div className="whatwedo-grid">
+        {servicesData.map((service, index) => (
+          <div key={index} className="whatwedo-card">
+            {/* The icon is rendered large and bold for visual impact */}
+            <div className="service-icon"><img src={service.icon} alt="" /></div>
+            <h3 className="service-title">{service.title}</h3>
+            <p className="service-description">{service.description}</p>
+          </div>
+        ))}
       </div>
-      <button className="more-button" onClick={() => navigate('/services')}>
-        View All Services
-      </button>
-    </section>
+      <button onClick={()=>navigate("/services")}  className='service-button'>All Services</button>
+    </div>
   );
 };
 
