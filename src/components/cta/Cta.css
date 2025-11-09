@@ -1,0 +1,61 @@
+/* --- CTA Container Styling --- */
+.cta-container {
+    background-color: #212325; /* Dark background for high contrast */
+    color: #fff; /* White text */
+    padding: 60px 20px;
+    text-align: center;
+   /* Add some space above/below to make it stand out */
+}
+
+/* --- Content Alignment --- */
+.cta-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* --- Title Styling --- */
+.cta-title {
+    font-size: 2.5rem; /* Large, bold heading */
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+/* --- Subtitle Styling --- */
+.cta-subtitle {
+    font-size: 1.15rem;
+    margin-bottom: 30px;
+    opacity: 0.9;
+}
+
+/* --- Button Styling --- */
+.cta-button {
+    display: inline-block;
+    background-color: #e6b31e; /* A striking gold/amber color typical for design firms */
+    color: #333; /* Dark text for the button */
+    text-decoration: none; /* Remove underline */
+    padding: 15px 35px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+    border: 2px solid #e6b31e; /* Solid border to maintain size on hover */
+}
+
+/* --- Button Hover Effect --- */
+.cta-button:hover {
+    background-color: #cc9d1b; /* Slightly darker gold on hover */
+    transform: translateY(-2px); /* Lift button slightly */
+}
+
+/* --- Responsive Adjustments --- */
+@media (max-width: 768px) {
+    .cta-container {
+        padding: 40px 15px;
+    }
+    .cta-title {
+        font-size: 2rem;
+    }
+    .cta-button {
+        padding: 12px 25px;
+    }
+}

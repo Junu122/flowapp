@@ -1,0 +1,142 @@
+/* --- Stats Section Container --- */
+.stats-section-container {
+    background-color: #212325; /* Light background to differentiate */
+    padding: 80px 20px;
+    text-align: center;
+    margin-top: 40px ;
+    font-family: 'Arial', sans-serif; /* Consistent font */
+}
+
+/* --- Header Styling --- */
+.stats-section-header {
+    margin-bottom: 50px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.stats-section-title {
+    font-size: 2.8rem;
+    color: #fff;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.stats-section-subtitle {
+    font-size: 1.2rem;
+    color: #666;
+    line-height: 1.6;
+}
+
+/* --- Stats Grid Layout --- */
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); /* Responsive grid */
+    gap: 30px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* --- Individual Stat Item --- */
+.stat-item {
+    background-color: #fff;
+    padding: 30px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.stat-item:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+/* --- Stat Number Styling --- */
+.stat-number {
+    font-size: 3.5rem; /* Large number */
+    font-weight: 800;
+    color: #e6b31e; /* Gold color for emphasis */
+    margin-bottom: 10px;
+    line-height: 1; /* Prevent extra space */
+    /* Base animation properties */
+    opacity: 0;
+    transform: scale(0.8);
+    animation-fill-mode: forwards; /* Keep the end state of the animation */
+}
+
+/* --- Stat Label Styling --- */
+.stat-label {
+    font-size: 1.1rem;
+    color: #555;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* --- Keyframe Animations for "Counting" (Fade-in and Scale) --- */
+/* Each stat gets its own animation delay for sequential appearance */
+
+@keyframes fadeInScale {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.animate-clients {
+    animation: fadeInScale 0.8s ease-out 0.2s forwards;
+}
+.animate-projects {
+    animation: fadeInScale 0.8s ease-out 0.4s forwards;
+}
+.animate-years {
+    animation: fadeInScale 0.8s ease-out 0.6s forwards;
+}
+.animate-awards {
+    animation: fadeInScale 0.8s ease-out 0.8s forwards;
+}
+
+
+/* --- Responsive Adjustments --- */
+@media (max-width: 1024px) {
+    .stats-section-title {
+        font-size: 2.5rem;
+    }
+    .stat-number {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .stats-section-container {
+        padding: 60px 15px;
+    }
+    .stats-section-title {
+        font-size: 2rem;
+    }
+    .stats-section-subtitle {
+        font-size: 1rem;
+    }
+    .stats-grid {
+        grid-template-columns: 1fr; /* Stack on small screens */
+    }
+    .stat-item {
+        padding: 25px 15px;
+    }
+    .stat-number {
+        font-size: 2.8rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .stats-section-title {
+        font-size: 1.8rem;
+    }
+    .stat-number {
+        font-size: 2.5rem;
+    }
+}
