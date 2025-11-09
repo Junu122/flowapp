@@ -1,11 +1,8 @@
 import React from 'react';
 import './Whatwedo.css';
 import { useNavigate } from 'react-router-dom';
+import { Parallax } from 'react-scroll-parallax';
 
-// Replace these with actual image paths or URLs
-import archIcon from '../../public/images/main-banner1.jpg';
-import interiorIcon from '../../public/images/main-banner1.jpg';
-import landscapeIcon from '../../public/images/main-banner1.jpg';
 
 const servicesData = [
   {
