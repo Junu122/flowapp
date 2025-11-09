@@ -32,15 +32,15 @@ const About = () => {
     return (
         <>
         
-          <HeaderContainer span1={"We are"} span2={"Flow Architects"} para={"Pioneering the future of digital solutions with passion, precision, and purpose."}/>
+          {/* <HeaderContainer span1={"We are"} span2={"Flow Architects"} para={"Pioneering the future of digital solutions with passion, precision, and purpose."}/> */}
 
       
          
                 <section className="about-us-container">
             <div className="core-story-section">
-                <div className="story-image-box">
+                {/* <div className="story-image-box">
                     <ParallaxImage />
-                </div>
+                </div> */}
                 <div className="story-content">
                     <h2 className="section-heading">Our  Story & Vision</h2>
                     <ul className="vision-points">
@@ -82,14 +82,7 @@ const About = () => {
             {/* Dynamic CTA Section - Encourage the client to take the next step */}
            
         </section>
-         <div className="cta-section">
-                <p className="cta-text">
-                    **Ready to build something extraordinary?**
-                </p>
-                <button className="cta-button" onClick={() => console.log('Navigate to Contact')}>
-                    Start a Project Today
-                </button>
-            </div>
+       
         </>
     )
 }

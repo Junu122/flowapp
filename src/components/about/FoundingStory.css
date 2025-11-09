@@ -1,0 +1,113 @@
+/* --- Section Container --- */
+.story-section-container {
+    padding: 80px 20px;
+    background-color: #ffffff; /* Clean white background */
+}
+
+/* --- Content Wrapper (Two Columns) --- */
+.story-content-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 50px; /* Space between the two columns */
+    align-items: flex-start; /* Align content to the top */
+}
+
+/* --- Left Column: Image and Milestones --- */
+.story-image-column {
+    flex: 1; /* Takes up one part of the space */
+    min-width: 350px;
+}
+
+.story-image {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    object-fit: cover;
+    margin-bottom: 25px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.milestones-list {
+    list-style: none; /* Remove default list style */
+    padding: 0;
+    margin: 0;
+    border-left: 3px solid #e51d2d; /* Gold line accent */
+    padding-left: 20px;
+}
+
+.milestones-list li {
+    margin-bottom: 10px;
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.5;
+}
+
+/* --- Right Column: Narrative Text --- */
+.story-text-column {
+    flex: 2; /* Takes up two parts of the space (wider) */
+    padding-top: 20px; /* Slight top padding to align with image visually */
+}
+
+.story-title {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 25px;
+    border-bottom: 3px solid #e51d2d; /* Title underline accent */
+    display: inline-block; /* Only underline the text itself */
+    padding-bottom: 10px;
+}
+
+.story-paragraph {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+.story-paragraph.emphasis {
+    font-style: italic;
+    color: #000;
+    font-weight: 500;
+}
+
+/* --- CTA Button --- */
+.story-cta-button {
+    display: inline-block;
+    background-color: #333; /* Dark button */
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 15px;
+    transition: background-color 0.3s ease;
+}
+
+.story-cta-button:hover {
+    background-color: #555;
+}
+
+
+/* --- Responsive Adjustments --- */
+@media (max-width: 992px) {
+    .story-content-wrapper {
+        flex-direction: column; /* Stack columns vertically */
+        gap: 40px;
+    }
+    .story-image-column {
+        min-width: auto;
+        order: 2; /* Put image/milestones below the text on small screens */
+    }
+    .story-text-column {
+        order: 1; /* Put text above image/milestones on small screens */
+        padding-top: 0;
+    }
+    .story-title {
+        font-size: 2rem;
+        border-bottom: none;
+        padding-bottom: 0;
+        margin-bottom: 15px;
+    }
+}

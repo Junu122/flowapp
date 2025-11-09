@@ -1,0 +1,96 @@
+/* --- About Hero Container --- */
+.about-hero-container {
+    position: relative; /* Allows overlay and content to be positioned relative to it */
+    width: 100%;
+    height: 60vh; /* 60% of the viewport height */
+    min-height: 400px; /* Minimum height for smaller screens */
+    display: flex; /* Use flexbox to center content */
+    align-items: center; /* Vertically center content */
+    justify-content: center; /* Horizontally center content */
+    overflow: hidden; /* Hide anything that overflows */
+    color: #000000; /* Default text color for overlay */
+    text-align: center;
+}
+
+/* --- Background Image Styling --- */
+.about-hero-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover; /* Cover the entire area */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat;
+    z-index: 1; /* Place behind overlay and content */
+}
+
+/* --- Overlay for Readability --- */
+.about-hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+     /* Darker overlay for text readability */
+    z-index: 2; /* Between background and content */
+}
+
+/* --- Content Styling (Title and Mission) --- */
+.about-hero-content {
+    position: relative; /* Bring content to the front */
+    z-index: 3;
+    max-width: 800px; /* Limit content width */
+    padding: 0 20px; /* Add horizontal padding */
+}
+
+.about-hero-title {
+    font-size: 3.5rem; /* Large, bold title */
+    margin-bottom: 15px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.about-hero-mission {
+    font-size: 1.3rem;
+    line-height: 1.6;
+    max-width: 600px;
+    margin: 0 auto; /* Center mission statement */
+    opacity: 0.9;
+}
+
+/* --- Responsive Adjustments --- */
+@media (max-width: 1024px) {
+    .about-hero-title {
+        font-size: 3rem;
+    }
+    .about-hero-mission {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .about-hero-container {
+        height: 50vh; /* Adjust height for smaller screens */
+        min-height: 350px;
+    }
+    .about-hero-title {
+        font-size: 2.5rem;
+    }
+    .about-hero-mission {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .about-hero-container {
+        height: 45vh;
+        min-height: 300px;
+    }
+    .about-hero-title {
+        font-size: 2rem;
+    }
+    .about-hero-mission {
+        font-size: 1rem;
+    }
+}

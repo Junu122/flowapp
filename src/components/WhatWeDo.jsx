@@ -49,7 +49,7 @@ const WhatWeDo = () => {
             {/* The icon is rendered large and bold for visual impact */}
             <div className="service-icon"><img src={service.icon} alt="" /></div>
             <h3 className="service-title">{service.title}</h3>
-            {/* <p className="service-description">{service.description}</p> */}
+            <p className="service-description">{service.description}</p>
           </div>
         ))}
       </div>
