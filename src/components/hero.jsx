@@ -5,7 +5,7 @@ import { ParallaxBanner } from 'react-scroll-parallax';
 const Hero = () => {
     const  BannerLayer = {
     image:
-      '/images/home5.jpeg',
+      '/images/main-banner2.jpg',
     translateY: [0, 50],
     opacity: [1, 0.3],
     scale: [1.05, 1, 'easeOutCubic'],
@@ -13,9 +13,9 @@ const Hero = () => {
   };
   const navigate=useNavigate()
   return (
-   <ParallaxBanner layers={[BannerLayer]} className='hero-banner'>
-  <section className="hero-section">
-   
+   <ParallaxBanner layers={[BannerLayer]} >
+  <section className="hero">
+    <div className="hero-overlay">
       <div className="hero-content">
         <h1>Crafting Spaces That Shape Experiences</h1>
         <p>
@@ -24,7 +24,7 @@ const Hero = () => {
         </p>
         <button onClick={()=>navigate("/project")}>View Projects</button>
       </div>
- 
+    </div>
   </section>
 </ParallaxBanner>
 
