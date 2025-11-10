@@ -1,14 +1,25 @@
 .hero-section {
     position: relative;
     width: 100%;
-    /* Full viewport height for a dramatic effect on large screens */
-    height: 140vh;
+    background-position: center;
+    background-size: cover, cover;
+    height: 100vh;
+  
     display: flex;
-    /* Centers content vertically and horizontally */
+
     align-items: center; 
     justify-content: center;
     overflow: hidden;
      background-color: red;
+
+
+     /* background: linear-gradient(to bottom, #0a0c2c80 3rem, transparent 10rem),
+    url("https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=2053&auto=format&fit=crop");
+  background-position: center, bottom left;
+  background-size: cover, cover;
+  height: fit-content;
+  color: #fafafc;
+  padding: 15rem 3rem 6rem; */
 }
 
 .hero-background {
@@ -16,12 +27,12 @@
     top: 0;
     left: 0;
     width: 100%;
-    /* Crucial: ensures the image covers the full height of the section */
+
     height: 100%;
-    /* Ensures image covers the entire area without distortion */
+
     object-fit: cover; 
     object-position: center;
-    /* Optional: Improves performance on some browsers */
+ 
     will-change: transform, opacity; 
 }
 
@@ -34,20 +45,25 @@
    
     background: linear-gradient(
         to bottom right,
-        rgba(0, 0, 0, 0.7) 0%,
-        rgba(0, 0, 0, 0.4) 100%
+        rgba(0, 0, 0, 0.4) 100%,
+        rgb(28, 23, 23) 0%
+        
     );
 }
 
 .hero-content {
-    position: relative; /* Changed from absolute to relative for better flow and z-index */
+    position: relative; 
     z-index: 10;
     max-width: 1200px;
     width: 100%;
-    padding: 0 40px; /* Increased side padding for better large-screen spacing */
+    padding: 0 40px; 
     color: white;
-    /* Added text alignment for content block positioning */
+   
     text-align: left; 
+
+     /* display: flex;
+    max-width: 1200px;
+    margin: 0 auto; */
 }
 
 .hero-subtitle {
@@ -182,8 +198,9 @@
     .hero-section {
         /* On smaller screens, allow the height to be content-driven 
            or use a reduced fixed height to prevent content from being too small. */
-        height: 70vh; 
-         min-height: 70vh;
+        height: 80vh; 
+         min-height: 80vh;
+         margin-top: 69px;
     }
 
     .hero-content {
@@ -238,8 +255,8 @@
 
 @media (max-width: 480px) {
     .hero-section {
-        height: 60vh;
-        min-height: 60vh;
+        height: 70vh;
+        min-height: 80vh;
       
     }
     
