@@ -1,121 +1,78 @@
-.hero-banner {
-    /* Set a baseline height for desktop/larger screens */
-    height: 100vh; 
-}
-.hero {
-  /* margin-top: 40px;
-  height: 110vh; */
-  /* background-image: url('https://demo.templatesjungle.com/modern/images/singleimage.jpg'); */
-  /* background-attachment: fixed; */
-  margin-top: 0;
-  height: 100%;
-  width: 100%;
-  /* background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; */
-  position: relative;
+/* src/components/Hero/Hero.css */
+
+/* --- Hero Section Container --- */
+.hero-section {
+  /* Replace with your image path */
+  /* background-image: url('/images/main-banner1.jpg');  */
+  
+  /* Key properties for responsiveness */
+  background-size: cover; /* Ensures the image covers the entire area */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents repeating */
+
+  /* Default height for smaller screens (e.g., mobile) */
+  min-height: 50vh; /* 50% of the viewport height */
+  
+  /* Flexbox for centering content */
   display: flex;
-  align-items: center;
   justify-content: center;
-  /* font-family: 'Helvetica Neue', sans-serif; */
- 
+  align-items: center;
+  
+  /* Add padding to the top and bottom */
+  padding: 40px 20px;
+  
+  /* Fallback color if the image fails to load */
+  background-color: #333; 
 }
 
-.hero-overlay {
-   /* subtle white overlay */
-   background: rgba(255, 255, 255, 0.2);
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+/* Adjust height for larger screens */
+@media (min-width: 768px) {
+  .hero-section {
+    min-height: 100vh; /* Larger height for desktop view */
+  }
+}
+@media(max-width:768px){
+  .hero-banner{
+    margin-top: 20px;
+    
+  }
+
 }
 
+/* --- Hero Content Styling (Text/Button) --- */
 .hero-content {
   text-align: center;
-  max-width: 800px;
-  padding: 2rem;
+  /* Adds a semi-transparent dark background behind the text for better readability */
+  background-color: rgba(0, 0, 0, 0.5); 
+  padding: 30px;
+  border-radius: 8px;
+  max-width: 600px;
+  color: white; /* Text color */
+  z-index: 1;
 }
 
-.hero h1 {
-  font-size: 5.65rem;
-  font-weight: 600;
-  color: #0d0d0d;
-  
+.hero-content h1 {
+  font-size: 2.5em;
+  margin-bottom: 0.5em;
 }
 
-.hero p {
-  margin-top: 1rem;
-  font-size: 1.2rem;
-  color: #000000;
+.hero-content p {
+  font-size: 1.2em;
+  margin-bottom: 1.5em;
 }
 
-.hero button {
-  margin-top: 2rem;
-  padding: 0.8rem 2rem;
-  background: #000;
-  color: #fff;
-  border: none;
-  cursor: pointer;
-  font-size: 1rem;
-  transition: background 0.3s ease;
+/* --- Hero Button Styling --- */
+.hero-button {
+  display: inline-block;
+  background-color: #007bff;
+  color: white;
+  padding: 12px 25px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
 }
 
-.hero button:hover {
-  background: #333;
+.hero-button:hover {
+  background-color: #0056b3;
 }
-
-@media (max-width: 1024px) {
-  .hero h1 {
-    font-size: 2.5rem;
-  }
-
-  .hero p {
-    font-size: 1.1rem;
-  }
-
-  .hero button {
-    font-size: 0.95rem;
-    padding: 0.7rem 1.8rem;
-  }
-}
-
-@media (max-width: 768px) {
-  .hero-banner {
-        /* Reduce the height to a viewable size on mobile, e.g., 60-70vh */
-        height: 65vh; 
-    }
-  .hero h1 {
-    font-size: 2rem;
-  }
-
-  .hero p {
-    font-size: 1rem;
-  }
-
-  .hero button {
-    font-size: 0.9rem;
-    padding: 0.6rem 1.5rem;
-  }
-}
-
-@media (max-width: 480px) {
-  .hero-banner {
-        height: 70vh; /* A good height for most phones */
-    }
-  .hero h1 {
-    font-size: 3.6rem;
-    text-align: start;
-  }
-
-  .hero p {
-    font-size: 0.95rem;
-    text-align: start;
-  }
-
-  .hero button {
-    font-size: 0.85rem;
-    padding: 0.5rem 1.2rem;
-  }
-}
-

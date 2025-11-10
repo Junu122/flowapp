@@ -14,8 +14,8 @@ const Hero = () => {
   const navigate=useNavigate()
   return (
    <ParallaxBanner layers={[BannerLayer]} className='hero-banner'>
-  <section className="hero">
-    <div className="hero-overlay">
+  <section className="hero-section">
+   
       <div className="hero-content">
         <h1>Crafting Spaces That Shape Experiences</h1>
         <p>
@@ -24,7 +24,7 @@ const Hero = () => {
         </p>
         <button onClick={()=>navigate("/project")}>View Projects</button>
       </div>
-    </div>
+ 
   </section>
 </ParallaxBanner>
 
