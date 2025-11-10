@@ -1,96 +1,93 @@
-/* --- About Hero Container --- */
-.about-hero-container {
-    position: relative; /* Allows overlay and content to be positioned relative to it */
-    width: 100%;
-    height: 60vh; /* 60% of the viewport height */
-    min-height: 400px; /* Minimum height for smaller screens */
-    display: flex; /* Use flexbox to center content */
-    align-items: center; /* Vertically center content */
-    justify-content: center; /* Horizontally center content */
-    overflow: hidden; /* Hide anything that overflows */
-    color: #000000; /* Default text color for overlay */
-    text-align: center;
+/* src/components/AboutHero.css */
+
+.about-hero-section {
+    /* Set up the container */
+    background: url('/images/home2.avif') no-repeat center center/cover; /* Replace with your high-quality architecture image */
+    background-color: #333; /* Fallback color */
+    color: white; /* Text color over the image */
+    padding: 100px 5%; /* Vertical padding and horizontal margin */
+    min-height: 70vh; /* Minimum height for a dramatic effect */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+    align-items: flex-start; /* Align content to the left */
+    position: relative;
 }
 
-/* --- Background Image Styling --- */
-.about-hero-background {
+/* Optional: Overlay for better text readability */
+.about-hero-section::before {
+    content: "";
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
-    background-size: cover; /* Cover the entire area */
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat;
-    z-index: 1; /* Place behind overlay and content */
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.45); /* Dark semi-transparent overlay */
+    z-index: 1;
 }
 
-/* --- Overlay for Readability --- */
-.about-hero-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-     /* Darker overlay for text readability */
-    z-index: 2; /* Between background and content */
+.hero-content {
+    /* Ensure content is above the overlay */
+    z-index: 2;
+    max-width: 800px;
+    margin-bottom: 30px;
 }
 
-/* --- Content Styling (Title and Mission) --- */
-.about-hero-content {
-    position: relative; /* Bring content to the front */
-    z-index: 3;
-    max-width: 800px; /* Limit content width */
-    padding: 0 20px; /* Add horizontal padding */
-}
-
-.about-hero-title {
-    font-size: 3.5rem; /* Large, bold title */
-    margin-bottom: 15px;
+.hero-title {
+    font-size: 3.5em; /* Large, impactful heading */
     font-weight: 700;
-    line-height: 1.2;
+    line-height: 1.1;
+    margin-bottom: 20px;
+    /* Use a classic font for elegance */
 }
 
-.about-hero-mission {
-    font-size: 1.3rem;
+.hero-subtitle {
+    font-size: 1.5em;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+.hero-intro-text {
+    font-size: 1.1em;
     line-height: 1.6;
-    max-width: 600px;
-    margin: 0 auto; /* Center mission statement */
     opacity: 0.9;
 }
 
-/* --- Responsive Adjustments --- */
-@media (max-width: 1024px) {
-    .about-hero-title {
-        font-size: 3rem;
-    }
-    .about-hero-mission {
-        font-size: 1.2rem;
-    }
+.cta-button {
+    z-index: 2;
+    padding: 12px 30px;
+    font-size: 1.1em;
+    font-weight: 600;
+    color: #fff;
+    background-color: #c98c0b; /* A professional accent color (e.g., gold/bronze) */
+    border: 2px solid #c98c0b;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s;
 }
 
+.cta-button:hover {
+    background-color: #a37209;
+    border-color: #a37209;
+}
+
+/* --- Media Query for Smaller Screens --- */
 @media (max-width: 768px) {
-    .about-hero-container {
-        height: 50vh; /* Adjust height for smaller screens */
-        min-height: 350px;
+    .about-hero-section {
+        min-height: 50vh;
+        padding: 80px 5%;
+        text-align: center;
+        align-items: center;
+        margin-top: 69px;
     }
-    .about-hero-title {
-        font-size: 2.5rem;
+    .hero-title {
+        font-size: 2.5em;
     }
-    .about-hero-mission {
-        font-size: 1.1rem;
+    .hero-subtitle {
+        font-size: 1.2em;
     }
-}
-
-@media (max-width: 480px) {
-    .about-hero-container {
-        height: 45vh;
-        min-height: 300px;
-    }
-    .about-hero-title {
-        font-size: 2rem;
-    }
-    .about-hero-mission {
-        font-size: 1rem;
+    .hero-content {
+        margin-bottom: 20px;
+        max-width: 100%;
     }
 }

@@ -45,12 +45,12 @@ const services = [
 const ServiceList = () => {
     return (
         <>
-        <HeaderContainer span1={"Our"} span2={"Services"} para={" Discover a suite of services designed to elevate your business, enhance your digital presence, and achieve measurable growth. We combine innovation with meticulous execution."}/>
+        {/* <HeaderContainer span1={"Our"} span2={"Services"} /> */}
         <section className="service-intro-container">
             <div className="services-grid">
                 {services.map((service, index) => (
                     <div key={index} className="service-card">
-                      
+                        {/* <img src={service.icon} alt={`${service.title} icon`} className="service-card-icon" /> */}
                         <h3 className="service-card-title">{service.title}</h3>
                         <p className="service-card-description">{service.description}</p>
                         {/* Optional: Add a "Learn More" button */}
@@ -61,14 +61,7 @@ const ServiceList = () => {
                 ))}
             </div>
 
-            <div className="service-cta-section">
-                <p className="service-cta-text">
-                    Ready to transform your vision into reality?
-                </p>
-                <button className="service-cta-button" onClick={() => console.log('Navigate to Services Page')}>
-                    Explore All Services
-                </button>
-            </div>
+          
         </section>
         </>
     );

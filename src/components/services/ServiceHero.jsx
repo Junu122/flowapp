@@ -6,22 +6,22 @@ const heroImage = '/images/123.jpeg';
 
 const ServiceHero = () => {
   return (
-    <section className="service-hero-container">
-      <div 
-        className="service-hero-background" 
-        style={{ backgroundImage: `url(${heroImage})` }}
-      ></div>
-      <div className="service-hero-overlay"></div>
+   <section className="service-hero-section">
       <div className="service-hero-content">
-        {/* <span className="service-hero-tagline">Our Integrated Approach</span> */}
-        <h1 className="service-hero-title">Beyond Blueprints: Full-Scope Architectural Excellence</h1>
-        {/* <p className="service-hero-subtitle">
-          From initial concept and feasibility studies to final construction administration, we provide an integrated suite of services designed for seamless project delivery and uncompromising quality.
+        <h1 className="service-hero-title">
+          Our Expertise <br /> to Build What's Next.
+        </h1>
+        <p className="service-hero-subtitle">
+        Our services cover every phase of the built environment: residential, commercial, and institutional design.
+        </p>
+        {/* <p className="hero-intro-text">
+          Our philosophy is rooted in understanding the unique stories of our clients and translating them into tangible, functional, and beautiful architectural solutions.
         </p> */}
-        <a href="#services-list" className="service-hero-cta">
-          Explore Our Core Services
-        </a>
       </div>
+      {/* Optional: Add a call-to-action button */}
+      {/* <button className="cta-button">
+        See Our Story
+      </button> */}
     </section>
   );
 };

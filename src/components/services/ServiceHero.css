@@ -1,117 +1,94 @@
-/* --- Service Hero Container --- */
-.service-hero-container {
-    position: relative;
-    width: 100%;
-    height: 55vh; /* Slightly shorter than the About Hero */
-    min-height: 380px;
+/* src/components/AboutHero.css */
+
+.service-hero-section {
+    /* Set up the container */
+    background: url('/images/home.avif') no-repeat center center/cover; /* Replace with your high-quality architecture image */
+    background-color: #333; /* Fallback color */
+    color: white; /* Text color over the image */
+    padding: 100px 5%; /* Vertical padding and horizontal margin */
+    min-height: 80vh; /* Minimum height for a dramatic effect */
     display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
-    text-align: center;
-    overflow: hidden;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+    align-items: flex-start; /* Align content to the left */
+    position: relative;
 }
 
-/* --- Background Image Styling --- */
-.service-hero-background {
+/* Optional: Overlay for better text readability */
+.service-hero-section::before {
+    content: "";
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.45); /* Dark semi-transparent overlay */
     z-index: 1;
 }
 
-/* --- Overlay for Readability --- */
-.service-hero-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(30, 43, 58, 0.75); /* Deep dark blue/gray overlay */
-    z-index: 2;
-}
-
-/* --- Content Styling --- */
 .service-hero-content {
-    position: relative;
-    z-index: 3;
-    max-width: 900px;
-    padding: 0 20px;
-}
-
-.service-hero-tagline {
-    font-size: 1rem;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #e6b31e; /* Gold accent color */
-    margin-bottom: 10px;
-    display: block;
+    /* Ensure content is above the overlay */
+    z-index: 2;
+    max-width: 800px;
+    margin-bottom: 30px;
 }
 
 .service-hero-title {
-    font-size: 3.2rem;
-    margin-bottom: 20px;
+    font-size: 3.5em; /* Large, impactful heading */
     font-weight: 700;
-    line-height: 1.2;
+    line-height: 1.1;
+    margin-bottom: 20px;
+    color: #fff;
+    /* Use a classic font for elegance */
 }
 
 .service-hero-subtitle {
-    font-size: 1.2rem;
+    font-size: 1.5em;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+.hero-intro-text {
+    font-size: 1.1em;
     line-height: 1.6;
-    max-width: 700px;
-    margin: 0 auto 30px;
     opacity: 0.9;
 }
 
-/* --- CTA Button --- */
-.service-hero-cta {
-    display: inline-block;
-    background-color: #e6b31e;
-    color: #1e2b3a; /* Dark text from the overlay color */
-    text-decoration: none;
-    padding: 14px 30px;
-    border-radius: 4px;
-    font-size: 1rem;
+.cta-button {
+    z-index: 2;
+    padding: 12px 30px;
+    font-size: 1.1em;
     font-weight: 600;
-    transition: background-color 0.3s ease, transform 0.1s ease;
+    color: #fff;
+    background-color: #c98c0b; /* A professional accent color (e.g., gold/bronze) */
+    border: 2px solid #c98c0b;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s;
 }
 
-.service-hero-cta:hover {
-    background-color: #cc9d1b;
-    transform: translateY(-1px);
+.cta-button:hover {
+    background-color: #a37209;
+    border-color: #a37209;
 }
 
-/* --- Responsive Adjustments --- */
-@media (max-width: 1024px) {
-    .service-hero-title {
-        font-size: 2.8rem;
-    }
-}
-
+/* --- Media Query for Smaller Screens --- */
 @media (max-width: 768px) {
-    .service-hero-container {
-        height: 45vh;
-        min-height: 300px;
+    .about-hero-section {
+        min-height: 50vh;
+        padding: 80px 5%;
+        text-align: center;
+        align-items: center;
+        margin-top: 69px;
     }
-    .service-hero-title {
-        font-size: 2.2rem;
+    .hero-title {
+        font-size: 2.5em;
     }
-    .service-hero-subtitle {
-        font-size: 1.05rem;
+    .hero-subtitle {
+        font-size: 1.2em;
     }
-}
-
-@media (max-width: 480px) {
-    .service-hero-title {
-        font-size: 1.8rem;
-    }
-    .service-hero-cta {
-        padding: 12px 20px;
+    .hero-content {
+        margin-bottom: 20px;
+        max-width: 100%;
     }
 }
