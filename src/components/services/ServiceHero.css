@@ -1,0 +1,117 @@
+/* --- Service Hero Container --- */
+.service-hero-container {
+    position: relative;
+    width: 100%;
+    height: 55vh; /* Slightly shorter than the About Hero */
+    min-height: 380px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    overflow: hidden;
+}
+
+/* --- Background Image Styling --- */
+.service-hero-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+/* --- Overlay for Readability --- */
+.service-hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(30, 43, 58, 0.75); /* Deep dark blue/gray overlay */
+    z-index: 2;
+}
+
+/* --- Content Styling --- */
+.service-hero-content {
+    position: relative;
+    z-index: 3;
+    max-width: 900px;
+    padding: 0 20px;
+}
+
+.service-hero-tagline {
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #e6b31e; /* Gold accent color */
+    margin-bottom: 10px;
+    display: block;
+}
+
+.service-hero-title {
+    font-size: 3.2rem;
+    margin-bottom: 20px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.service-hero-subtitle {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    max-width: 700px;
+    margin: 0 auto 30px;
+    opacity: 0.9;
+}
+
+/* --- CTA Button --- */
+.service-hero-cta {
+    display: inline-block;
+    background-color: #e6b31e;
+    color: #1e2b3a; /* Dark text from the overlay color */
+    text-decoration: none;
+    padding: 14px 30px;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+.service-hero-cta:hover {
+    background-color: #cc9d1b;
+    transform: translateY(-1px);
+}
+
+/* --- Responsive Adjustments --- */
+@media (max-width: 1024px) {
+    .service-hero-title {
+        font-size: 2.8rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .service-hero-container {
+        height: 45vh;
+        min-height: 300px;
+    }
+    .service-hero-title {
+        font-size: 2.2rem;
+    }
+    .service-hero-subtitle {
+        font-size: 1.05rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .service-hero-title {
+        font-size: 1.8rem;
+    }
+    .service-hero-cta {
+        padding: 12px 20px;
+    }
+}

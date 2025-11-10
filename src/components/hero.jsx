@@ -5,7 +5,7 @@ import { ParallaxBanner } from 'react-scroll-parallax';
 const Hero = () => {
     const  BannerLayer = {
     image:
-      '/images/portfolio-large-2.jpg',
+      '/images/home5.jpeg',
     translateY: [0, 50],
     opacity: [1, 0.3],
     scale: [1.05, 1, 'easeOutCubic'],
