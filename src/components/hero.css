@@ -2,7 +2,7 @@
     position: relative;
     width: 100%;
     /* Full viewport height for a dramatic effect on large screens */
-    height: 100vh;
+    height: 140vh;
     display: flex;
     /* Centers content vertically and horizontally */
     align-items: center; 
@@ -157,6 +157,9 @@
 /* --- Media Queries for Responsiveness --- */
 
 @media (max-width: 1024px) {
+   .hero-section{
+    height: 100vh;
+   }
     .hero-title {
         font-size: 56px;
     }
@@ -179,8 +182,8 @@
     .hero-section {
         /* On smaller screens, allow the height to be content-driven 
            or use a reduced fixed height to prevent content from being too small. */
-        height: 80vh; 
-        min-height: 550px; /* Minimum height for decent display */
+        height: 70vh; 
+         min-height: 70vh;
     }
 
     .hero-content {
@@ -235,8 +238,9 @@
 
 @media (max-width: 480px) {
     .hero-section {
-        height: 70vh;
-        min-height: 450px;
+        height: 60vh;
+        min-height: 60vh;
+      
     }
     
     .hero-title {
