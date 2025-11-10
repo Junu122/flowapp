@@ -13,18 +13,46 @@ const Hero = () => {
   };
   const navigate=useNavigate()
   return (
-   
-  <section className="hero">
-      <div className="hero-overlay">
+  
+
+   <section className="hero-section">
+        <img
+          src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=2053&auto=format&fit=crop"
+          alt="Modern Architecture"
+          className="hero-background"
+        />
+        
+        <div className="hero-overlay"></div>
+        
         <div className="hero-content">
-          <h1>We Design Spaces That Inspire</h1>
-          <p>Architecture | Interior | Planning</p>
-          <button>View Our Projects</button>
+          <p className="hero-subtitle">Architecture & Design Studio</p>
+          <h1 className="hero-title">
+            Creating <strong>Timeless Spaces</strong> for Modern Living
+          </h1>
+          <p className="hero-description">
+            We blend innovative design with sustainable practices to transform visions into architectural masterpieces that stand the test of time.
+          </p>
+          <div className="hero-buttons">
+            <button className="btn btn-primary">View Projects</button>
+            <button className="btn btn-secondary">Contact Us</button>
+          </div>
         </div>
-      </div>
-    </section>
 
-
+        {/* <div className="hero-stats">
+          <div className="stat-item">
+            <div className="stat-number">250+</div>
+            <div className="stat-label">Projects Completed</div>
+          </div>
+          <div className="stat-item">
+            <div className="stat-number">15+</div>
+            <div className="stat-label">Years Experience</div>
+          </div>
+          <div className="stat-item">
+            <div className="stat-number">30+</div>
+            <div className="stat-label">Awards Won</div>
+          </div>
+        </div> */}
+      </section>
     
   );
 };
