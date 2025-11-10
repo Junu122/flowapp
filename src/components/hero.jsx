@@ -13,7 +13,7 @@ const Hero = () => {
   };
   const navigate=useNavigate()
   return (
-   <ParallaxBanner layers={[BannerLayer]} className="aspect-[2/1]">
+   <ParallaxBanner layers={[BannerLayer]} className='hero-banner'>
   <section className="hero">
     <div className="hero-overlay">
       <div className="hero-content">
