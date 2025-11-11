@@ -19,21 +19,21 @@ const ProjectCard = ({ project, index }) => {
 
 
   return (
-    <motion.div
+    <div
       className="project-card"
-      ref={ref}
-      initial="hidden"
-      whileInView="visible"
-      viewport={{ once: false, amount: 0.5 }}
-      variants={cardVariants}
-      transition={{ duration: 0.8, ease: 'easeOut', delay: index * 0.1 }}
+      // ref={ref}
+      // initial="hidden"
+      // whileInView="visible"
+      // viewport={{ once: false, amount: 0.5 }}
+      // variants={cardVariants}
+      // transition={{ duration: 0.8, ease: 'easeOut', delay: index * 0.1 }}
     >
       <img src={project} alt={project?.title} />
       {/* <div className="project-info">
         <h3>{project?.title}</h3>
         <p>{project?.location}</p>
       </div> */}
-    </motion.div>
+    </div>
   );
 };
 
