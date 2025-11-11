@@ -54,23 +54,23 @@
     opacity: 0.9;
 }
 
-.cta-button {
+/* .cta-button {
     z-index: 2;
     padding: 12px 30px;
     font-size: 1.1em;
     font-weight: 600;
     color: #fff;
-    background-color: #c98c0b; /* A professional accent color (e.g., gold/bronze) */
+    background-color: #c98c0b; 
     border: 2px solid #c98c0b;
     border-radius: 4px;
     cursor: pointer;
     transition: background-color 0.3s, border-color 0.3s;
-}
+} */
 
-.cta-button:hover {
+/* .cta-button:hover {
     background-color: #a37209;
     border-color: #a37209;
-}
+} */
 
 /* --- Media Query for Smaller Screens --- */
 @media (max-width: 768px) {

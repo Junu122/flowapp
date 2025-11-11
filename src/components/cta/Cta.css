@@ -30,7 +30,7 @@
 /* --- Button Styling --- */
 .cta-button {
     display: inline-block;
-    background-color: #e6b31e; /* A striking gold/amber color typical for design firms */
+    background-color: #fff; /* A striking gold/amber color typical for design firms */
     color: #333; /* Dark text for the button */
     text-decoration: none; /* Remove underline */
     padding: 15px 35px;

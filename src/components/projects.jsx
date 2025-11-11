@@ -8,7 +8,7 @@ const Projects = () => {
   const navigate = useNavigate();
 
   const handleViewAll = () => {
-    navigate('/projects');
+    navigate('/project');
   };
 
   return (

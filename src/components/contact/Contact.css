@@ -14,7 +14,7 @@
 .contact-container {
     background-color: var(--background-white);
     color: var(--text-black);
-    padding: 80px 5%; 
+    padding: 80px 2%; 
   
     line-height: 1.6;
     max-width: 1400px;
@@ -51,7 +51,7 @@
     display: grid;
     grid-template-columns: 1.5fr 1fr; /* Form takes slightly more space */
     gap: var(--spacing);
-    padding: 0 20px;
+    padding: 0 10px;
 }
 
 @media (max-width: 992px) {
@@ -75,7 +75,7 @@
 
 /* --- Form Styles --- */
 .contact-form-box {
-    padding: 50px;
+    padding: 30px;
     /* Minimalist focus: light border for separation */
     border: 1px solid var(--light-border); 
     border-radius: 8px;
@@ -85,7 +85,7 @@
 .contact-form input,
 .contact-form textarea {
     width: 100%;
-    padding: 15px;
+    padding: 10px;
     margin-bottom: 20px;
     border: 1px solid var(--light-border);
     border-radius: 4px;

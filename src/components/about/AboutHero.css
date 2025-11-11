@@ -58,9 +58,9 @@
     padding: 12px 30px;
     font-size: 1.1em;
     font-weight: 600;
-    color: #fff;
-    background-color: #c98c0b; /* A professional accent color (e.g., gold/bronze) */
-    border: 2px solid #c98c0b;
+    color: #000000;
+    background-color: #ffffff; /* A professional accent color (e.g., gold/bronze) */
+    border: 2px solid #000000;
     border-radius: 4px;
     cursor: pointer;
     transition: background-color 0.3s, border-color 0.3s;

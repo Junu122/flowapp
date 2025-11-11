@@ -112,13 +112,13 @@
     display: inline-block;
 }
 
-.btn-primary {
+.btn-project {
     background-color: white;
     color: #111;
 }
 
-.btn-primary:hover {
-    background-color: #f0f0f0;
+.btn-project:hover {
+    background-color: #111;
     transform: translateY(-2px);
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
 }

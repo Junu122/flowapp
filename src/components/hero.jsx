@@ -15,7 +15,7 @@ const Hero = () => {
   const navigate=useNavigate()
   const handleViewProjects = () => {
         // Example navigation logic
-        navigate('/projects'); 
+        navigate('/project'); 
     };
 
     const handleContactUs = () => {
@@ -36,9 +36,9 @@ const Hero = () => {
             <div className="hero-overlay"></div>
             
             <div className="hero-content " >
-                <FadeInWhenVisible delay={1}>
+                {/* <FadeInWhenVisible delay={1}>
                 <p className="hero-subtitle">Architecture & Design Studio</p>
-                </FadeInWhenVisible>
+                </FadeInWhenVisible> */}
                  <FadeInWhenVisible delay={1.4}>
                 <h1 className="hero-title "  >
                    
@@ -52,17 +52,17 @@ const Hero = () => {
                 </FadeInWhenVisible>
                 <div className="hero-buttons">
                     <button 
-                        className="btn btn-primary" 
+                        className="btn btn-project" 
                         onClick={handleViewProjects}
                     >
                         View Projects
                     </button>
-                    <button 
+                    {/* <button 
                         className="btn btn-secondary" 
                         onClick={handleContactUs}
                     >
                         Contact Us
-                    </button>
+                    </button> */}
                 </div>
             </div>
 

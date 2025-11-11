@@ -2,25 +2,32 @@
 
 .services-container {
   /* Enforce white background and black text as requested */
-  background-color: white;
+  background-color: #f2f2f2;
   color: black;
   
   /* Modern layout padding and centering */
-  padding: 80px 40px;
-  max-width: 1200px;
+  padding: 40px 20px;
+  max-width: 1400px;
   margin: 0 auto;
   text-align: center;
 }
-
+.service-main-header{
+  margin-bottom: 1rem;
+}
 .services-main-title {
-  font-size: 3rem; /* Large, attention-seeking title */
-  font-weight: 800;
-  margin-bottom: 50px;
+  font-size: 2.5rem; /* Large, attention-seeking title */
+  font-weight: bold;
+  padding-bottom: 10px;
+  margin-bottom: 1rem;
   text-transform: capitalize;
   letter-spacing: 1px;
   color: #061a33;
     position: relative; /* Establish position context for the ::after element */
   display: inline-block;
+}
+.service-main-description{
+  margin: 0 auto 1rem;
+  max-width: 700px;
 }
 .services-main-title::after {
   content: ''; /* Required for pseudo-elements */
@@ -29,7 +36,7 @@
   left: 50%; /* Center the underline */
   transform: translateX(-50%);
   width: 80%; /* Adjust this width for desired length (e.g., 60px) */
-  height: 4px; /* Thickness of the underline */
+  height: 2px; /* Thickness of the underline */
   background-color: #e51d2d; 
 }
 /* --- Service Grid Layout --- */
@@ -135,7 +142,7 @@
     font-size: 24px;
   }
   .services-container{
-      padding: 80px 10px;
+      padding: 40px 10px;
   }
   .whatwedo-grid{
     gap: 12px;

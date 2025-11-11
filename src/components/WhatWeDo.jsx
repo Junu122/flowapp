@@ -20,17 +20,17 @@ const servicesData = [
     title: 'Landscape Design',
     description: "Designing environments that prioritize energy efficiency, minimize environmental impact, and maximize the long-term value of your investment.",
   },
-    {
+  {
     icon: '/images/renovation.avif', // Replace with an actual icon/image component or URL
     title: 'Renovation & Adaptive Reuse',
     description: "Designing environments that prioritize energy efficiency, minimize environmental impact, and maximize the long-term value of your investment.",
   },
-     {
+  {
     icon: '/images/design-development.avif', // Replace with an actual icon/image component or URL
     title: 'Design Development & Technical Detailing',
     description: "Designing environments that prioritize energy efficiency, minimize environmental impact, and maximize the long-term value of your investment.",
   },
-    {
+  {
     icon: '/images/visualization.avif', // Replace with an actual icon/image component or URL
     title: 'Visualization & 3D Modelling',
     description: "Designing environments that prioritize energy efficiency, minimize environmental impact, and maximize the long-term value of your investment.",
@@ -39,10 +39,16 @@ const servicesData = [
 ];
 
 const WhatWeDo = () => {
-  const navigate=useNavigate()
+  const navigate = useNavigate()
   return (
     <div className="services-container">
-      <h2 className="services-main-title">Our   Services</h2>
+      <div className="service-main-header">
+        <h2 className="services-main-title">Service We Provide</h2>
+        <p className="service-main-description">
+          Our architectural practice is humble however operates with confidence because we are experienced in a variety of building types and styles with a proven track record.</p>
+      </div>
+
+
       <div className="whatwedo-grid">
         {servicesData.map((service, index) => (
           <div key={index} className="whatwedo-card">
@@ -53,7 +59,7 @@ const WhatWeDo = () => {
           </div>
         ))}
       </div>
-      <button onClick={()=>navigate("/services")}  className='service-button'>View all Services</button>
+      <button onClick={() => navigate("/services")} className='service-button'>View all Services</button>
     </div>
   );
 };

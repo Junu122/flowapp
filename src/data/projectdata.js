@@ -501,12 +501,11 @@ export const PROJECTS = [
 
 
 export const featuredProjects = [
-  "/images/portfolio-thumb-1.jpg",
-  "/images/portfolio-thumb-2.jpg",
-  "/images/portfolio-thumb-3.jpg",
-  "/images/portfolio-thumb-4.jpg",
-  "/images/portfolio-thumb-5.jpg",
-  "/images/portfolio-thumb-6.jpg",
-  "/images/portfolio-thumb-7.jpg",
-  "/images/portfolio-thumb-8.jpg",
+  "/images/projectimg/advsiddique/1.jpg",
+  "/images/projectimg/aliasgar/1.jpg",
+    "/images/projectimg/avaclinic/1.png",
+    "/images/projectimg/avaclinic/5.png",
+     "/images/projectimg/navyathdental/C.png",
+      "/images/projectimg/symphonydream/1.jpg",
+
 ]
