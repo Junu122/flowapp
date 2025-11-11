@@ -2,10 +2,11 @@ import React from 'react';
 import {  useNavigate } from 'react-router-dom';
 import './hero.css';
 import { ParallaxBanner } from 'react-scroll-parallax';
+import FadeInWhenVisible from './FadeInVisible';
 const Hero = () => {
     const  BannerLayer = {
     image:
-      '/images/main-banner1.jpg',
+      '/images/hero-img.jpeg',
     translateY: [0, 50],
     opacity: [1, 0.3],
     scale: [1.05, 1, 'easeOutCubic'],
@@ -24,7 +25,7 @@ const Hero = () => {
   const hello=  "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=2053&auto=format&fit=crop"
   return (
   
-
+<ParallaxBanner layers={[BannerLayer]} className='parallax-layer' >
    <section className="hero-section">
             {/* <img
                 src="/images/hero-img.jpeg"
@@ -34,14 +35,21 @@ const Hero = () => {
             
             <div className="hero-overlay"></div>
             
-            <div className="hero-content">
+            <div className="hero-content " >
+                <FadeInWhenVisible delay={1}>
                 <p className="hero-subtitle">Architecture & Design Studio</p>
-                <h1 className="hero-title">
+                </FadeInWhenVisible>
+                 <FadeInWhenVisible delay={1.4}>
+                <h1 className="hero-title "  >
+                   
                     Creating <strong>Timeless Spaces</strong> for Modern Living
                 </h1>
+                </FadeInWhenVisible>
+                <FadeInWhenVisible delay={1.6}>
                 <p className="hero-description">
                     We blend innovative design with sustainable practices to transform visions into architectural masterpieces that stand the test of time.
                 </p>
+                </FadeInWhenVisible>
                 <div className="hero-buttons">
                     <button 
                         className="btn btn-primary" 
@@ -74,7 +82,7 @@ const Hero = () => {
                 </div>
             </div> */}
         </section>
-    
+    </ParallaxBanner>
   );
 };
 

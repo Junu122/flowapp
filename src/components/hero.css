@@ -1,3 +1,24 @@
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        /* Start slightly above their final position (e.g., 20px up) */
+        transform: translate3d(0, 20px, 0); 
+    }
+    to {
+        opacity: 1;
+        /* End at their final position */
+        transform: translate3d(0, 0, 0); 
+    }
+}
+.animate-fade-in-up{
+animation-name: fadeInUp;
+    animation-duration: 2s; /* Animation length */
+    animation-fill-mode: both; /* Ensures the element stays in the 'to' state */
+    animation-timing-function: ease-out; /* Smooth deceleration */
+}
+.parallax-layer{
+    height: 100vh;
+}
 .hero-section {
     display: flex;
     position: relative;
@@ -5,13 +26,13 @@
     background-position: center;
     background-size: cover, cover;
     height: 100vh; /* Increased height for a more prominent hero section */
-   background: url("/images/hero-img.jpeg") no-repeat center center/cover;
+   /* background: url("/images/hero-img.jpeg") no-repeat center center/cover; */
     display: flex;
 
     align-items: center; 
     justify-content: flex-start;
     overflow: hidden;
-     background-color: red;
+    
      box-sizing: border-box;
 }
 
@@ -166,6 +187,9 @@
 /* --- Media Queries for Responsiveness --- */
 
 @media (max-width: 1024px) {
+    .parallax-layer{
+        height: 80vh;
+    }
    .hero-section{
     height: 80vh;
    }
@@ -188,6 +212,9 @@
 }
 
 @media (max-width: 768px) {
+    .parallax-layer{
+        height: 80vh;
+    }
     .hero-section {
         /* On smaller screens, allow the height to be content-driven 
            or use a reduced fixed height to prevent content from being too small. */
@@ -247,8 +274,11 @@
 }
 
 @media (max-width: 480px) {
+    .parallax-layer{
+        height: 60vh;
+    }
     .hero-section {
-       height:40vh ;
+       height:60vh ;
        
       
     }

@@ -1,0 +1,26 @@
+/* 1. Keyframes (Defines the motion) */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translate3d(0, 20px, 0); 
+    }
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0); 
+    }
+}
+
+/* 2. Starting State (Hidden before it enters view) */
+.start-hidden {
+    opacity: 0;
+    /* Optional: helps prevent content flash during load */
+    transform: translate3d(0, 20px, 0);
+}
+
+/* 3. Animation Class (Applied when 'inView' is true) */
+.animate-fade-in-up {
+    animation-name: fadeInUp;
+    animation-duration: 1s; /* Animation length */
+    animation-fill-mode: both; /* Keeps the element visible after animation */
+    animation-timing-function: ease-out;
+}
