@@ -1,16 +1,16 @@
-.projects {
-  padding: 20px 20px;
+.featured-projects {
+  padding: 40px 20px;
   background-color: #fff;
   text-align: center;
   max-width: 1200px;
   margin: 0 auto;
 }
 
-.projects-header {
-  margin-bottom: 3rem;
+.featured-projects-header {
+  margin-bottom: 1rem;
 }
    
-.projects h2 {
+.featured-projects h2 {
   font-size: 2.5rem;
   margin-bottom: 1rem;
   color: #000;
@@ -21,7 +21,7 @@
   padding-bottom: 10px;
 }
 
-.projects h2::after {
+.featured-projects h2::after {
   content: '';
   position: absolute;
   bottom: 0;
@@ -32,12 +32,12 @@
   background-color: #e51d2d;
 }
 
-.projects-description {
+.featured-projects-description {
   font-size: 1.1rem;
   color: #666;
   line-height: 1.6;
   max-width: 700px;
-  margin: 1.5rem auto 0;
+  margin: 0 auto 1rem;
   font-weight: 400;
 }
 
@@ -88,15 +88,16 @@
 }
 
 @media (max-width: 768px) {
-  .projects {
+  .featured-projects {
     padding: 20px 15px;
   }
 
-  .projects h2 {
+  .featured-projects h2 {
     font-size: 2rem;
+    margin-bottom: 1rem;
   }
 
-  .projects-description {
+  .featured-projects-description {
     font-size: 1rem;
     padding: 0 10px;
   }
@@ -118,11 +119,11 @@
     grid-template-columns: 1fr;
   }
 
-  .projects h2 {
+  .featured-projects h2 {
     font-size: 1.75rem;
   }
 
-  .projects-description {
+  .featured-projects-description {
     font-size: 0.95rem;
   }
 }
@@ -175,44 +176,14 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
   }
-  .projects h2{
+  .featured-projects h2{
     font-size: 24px;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
   }
 }
 
 /* Optional: fallback for very tiny screens */
 
 
-.project-card {
-  border: 1px solid #eaeaea;
-  overflow: hidden;
-  background-color: #fff;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
-  transition: transform 0.3s ease;
- 
-}
-
-.project-card img {
-  width: 100%;
-  height:auto;
-  display: block;
-}
-
-.project-info {
-  padding: 1rem;
-}
-
-.project-info h3 {
-  font-size: 1.2rem;
-  font-weight: 600;
-  color: #000;
-}
-
-.project-info p {
-  font-size: 0.95rem;
-  color: #555;
-  margin-top: 0.5rem;
-}
 
 

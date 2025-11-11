@@ -12,10 +12,10 @@ const Projects = () => {
   };
 
   return (
-    <section className="projects">
-      <div className="projects-header">
+    <section className="featured-projects">
+      <div className="featured-projects-header">
         <h2>Featured Projects</h2>
-        <p className="projects-description">
+        <p className="featured-projects-description">
           Explore a selection of my recent work showcasing innovative solutions 
           and creative problem-solving across various technologies and domains.
         </p>

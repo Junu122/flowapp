@@ -1,21 +1,4 @@
-@keyframes fadeInUp {
-    from {
-        opacity: 0;
-        /* Start slightly above their final position (e.g., 20px up) */
-        transform: translate3d(0, 20px, 0); 
-    }
-    to {
-        opacity: 1;
-        /* End at their final position */
-        transform: translate3d(0, 0, 0); 
-    }
-}
-.animate-fade-in-up{
-animation-name: fadeInUp;
-    animation-duration: 2s; /* Animation length */
-    animation-fill-mode: both; /* Ensures the element stays in the 'to' state */
-    animation-timing-function: ease-out; /* Smooth deceleration */
-}
+
 .parallax-layer{
     height: 100vh;
 }
@@ -25,7 +8,7 @@ animation-name: fadeInUp;
     width: 100%;
     background-position: center;
     background-size: cover, cover;
-    height: 100vh; /* Increased height for a more prominent hero section */
+    height: 100%; /* Increased height for a more prominent hero section */
    /* background: url("/images/hero-img.jpeg") no-repeat center center/cover; */
     display: flex;
 
@@ -36,7 +19,7 @@ animation-name: fadeInUp;
      box-sizing: border-box;
 }
 
-.hero-background {
+/* .hero-background {
     position: absolute;
     top: 0;
     left: 0;
@@ -48,7 +31,7 @@ animation-name: fadeInUp;
     object-position: center;
  
     will-change: transform, opacity; 
-}
+} */
 
 .hero-overlay {
     position: absolute;
@@ -190,9 +173,7 @@ animation-name: fadeInUp;
     .parallax-layer{
         height: 80vh;
     }
-   .hero-section{
-    height: 80vh;
-   }
+ 
     .hero-title {
         font-size: 56px;
     }
@@ -214,13 +195,13 @@ animation-name: fadeInUp;
 @media (max-width: 768px) {
     .parallax-layer{
         height: 80vh;
+        margin-top: 69px;
     }
     .hero-section {
         /* On smaller screens, allow the height to be content-driven 
            or use a reduced fixed height to prevent content from being too small. */
-        height: 80vh; 
-         min-height: 80vh;
-         margin-top: 69px;
+  
+        
     }
 
     .hero-content {
@@ -277,11 +258,7 @@ animation-name: fadeInUp;
     .parallax-layer{
         height: 60vh;
     }
-    .hero-section {
-       height:60vh ;
-       
-      
-    }
+  
     
     .hero-title {
         font-size: 30px; /* Adjusted down from 20px to 30px for readability */
