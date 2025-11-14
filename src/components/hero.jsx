@@ -11,6 +11,10 @@ const Hero = () => {
     opacity: [1, 0.3],
     scale: [1.05, 1, 'easeOutCubic'],
     shouldAlwaysCompleteAnimation: true,
+    style: {
+            marginTop: '200px'
+        }
+    
   };
   const navigate=useNavigate()
   const handleViewProjects = () => {
