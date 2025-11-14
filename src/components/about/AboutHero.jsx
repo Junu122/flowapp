@@ -12,7 +12,7 @@ const AboutHero = () => {
           Designing the Future. <br /> Building Legacies.
         </h1>
         <p className="hero-subtitle">
-          For over 20 years, we've blended **innovative design** with **sustainable practices** to create spaces that inspire, endure, and elevate communities.
+          For over 10 years, we've blended **innovative design** with **sustainable practices** to create spaces that inspire, endure, and elevate communities.
         </p>
         <p className="hero-intro-text">
           Our philosophy is rooted in understanding the unique stories of our clients and translating them into tangible, functional, and beautiful architectural solutions.

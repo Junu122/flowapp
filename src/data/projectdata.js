@@ -37,7 +37,7 @@ export const PROJECTS = [
     imageSrc: '/images/projectimg/avaclinic/1.png',
     client: "DR NASEEHA",
     area: "260 SQFT",
-    description: "lorem ipsumdolor dfjkwsg jwrhghr werhwhy ewyrweh gkjelk3  rioitwehjth wr",
+    description: "Designed within a compact footprint, this project transforms a single large room into two distinct zones — a reception and waiting area in the front and a consultation and treatment space at the rear. The layout was carefully planned to ensure clear spatial hierarchy, functional efficiency, and visual continuity within a limited area.The interior palette embraces soft beige, muted green, and warm wood tones, creating a light and tranquil atmosphere that reflects the clinic’s healing philosophy. The material selection and tone were intentionally kept minimal to evoke a sense of calm and connection to nature.The reception and pharmacy counter form the visual anchor of the space. A curved white counter complements a linear backdrop of illuminated wooden shelves that neatly display homeopathic medicines. This interplay of form and light enhances both functionality and aesthetic clarity.The waiting area features a continuous built-in bench with upholstered cushions in neutral shades. Vertical wall panelling and focused wall washers add rhythm and warmth, defining the seating zone without visual clutter.",
     images: [
       "/images/projectimg/avaclinic/1.png",
       "/images/projectimg/avaclinic/2.png",
@@ -58,7 +58,7 @@ export const PROJECTS = [
     imageSrc: '/images/projectimg/auraclinic/1.png',
     client: "",
     area: "1980 SQFT",
-    description: "lorem ipsum dolor sem men dsjfjdgb",
+    description: "This dermatology clinic is envisioned as a calm, contemporary space that seamlessly balances functionality, privacy, and visual openness. The planning follows a linear zoning concept, with distinct yet connected spatial bands ensuring smooth workflow and circulation.One end of the plan houses the clinical zone — including consultation, treatment, and laboratory areas — while the opposite side accommodates administrative functions, such as the reception, nursing station, and office spaces. The central zone forms the heart of the layout with a welcoming lobby and waiting area, visually connecting both ends.A clear dual-circulation system is established — a front corridor for patients and visitors, and a rear corridor dedicated to staff movement and service access. This separation ensures privacy, hygiene, and operational efficiency while maintaining a fluid spatial experience.The interiors embrace an open plan, enhanced by glass partitions that allow transparency and natural light to flow through the spaces. Small green pockets are integrated within the layout, reinforcing a sense of freshness and well-being.The colour palette draws inspiration from natural skin tones, using soft pinks, beige, and muted browns to evoke warmth and comfort. These hues, paired with subtle lighting and clean detailing, create the calm, restorative atmosphere essential for a dermatology setting.",
     images: [
       "/images/projectimg/auraclinic/1.png",
       "/images/projectimg/auraclinic/2.png",
@@ -84,7 +84,7 @@ export const PROJECTS = [
     imageSrc: '/images/projectimg/sandsmedical/5.jpg',
     client: "DR.WASEEM",
     area: "1202 SQFT",
-    description: "The design concept focuses on creating a modern minimal clinic that feels light, open, and welcoming.The layout is guided by clear circulation and clean lines, ensuring easy movement and functional efficiency.Spaces are visually connected through glass partitions allowing natural light to filter across the clinic, softening boundaries and creating a sense of openness.The interiors are envisioned as more than a clinical space—they are designed as a calmingexperience for both patients and practitioners.By avoiding the closed, restrictive feel of",
+    description: "  ",
     images: [
       "/images/projectimg/sandsmedical/2.jpg",
       "/images/projectimg/sandsmedical/3.jpg",
@@ -132,8 +132,8 @@ export const PROJECTS = [
     category: 'RESIDENTIAL',
     imageSrc: "/images/projectimg/aliasgar/1.jpg",
     client: "ALI ASGAR",
-    area: "8613 SQFT",
-    description: "The design of the Dialysis Center is guided by the idea of creating a healing and comforting environment that supports both patients and visitors. The architectural concept takes inspiration from the kidney and its purification process, expressed through a sculptural element beside the portico that not only symbolizes the organ but also serves as a structural support for the slab. The facade design features perforated screen walls that filter daylight and create an ever-changing play of shadows, colors, and reflections. These patterns bring warmth and softness to the minimal exterior while maintaining privacy for the interior spaces. All service functions are placed in the basement, ensuring a calm and organized patient zone above.Green spaces integrated across the site — both outdoors and within the interior — enhance the building’s connection to nature, improving air quality and overall well-being. Together, these elements create a functional, symbolic, and serene healthcare space rooted in the idea of purification and renewal.",
+    area: "",
+    description: "",
     images: [
       "/images/projectimg/aliasgar/1.jpg",
       "/images/projectimg/aliasgar/2.jpg",
@@ -156,38 +156,34 @@ export const PROJECTS = [
   },
   {
     id: 'p7',
-    title: 'ALI PT RESIDENCE',
-    location: 'MANNARKKAD, KERALA',
+    title: 'HORIZON HOUSE',
+    location: '',
     category: 'RESIDENTIAL',
-    imageSrc: "/images/projectimg/alipt/1.jpg",
-    client: "ALI PT",
-    area: "8613 SQFT",
-    description: "The design of the Dialysis Center is guided by the idea of creating a healing and comforting environment that supports both patients and visitors. The architectural concept takes inspiration from the kidney and its purification process, expressed through a sculptural element beside the portico that not only symbolizes the organ but also serves as a structural support for the slab. The facade design features perforated screen walls that filter daylight and create an ever-changing play of shadows, colors, and reflections. These patterns bring warmth and softness to the minimal exterior while maintaining privacy for the interior spaces. All service functions are placed in the basement, ensuring a calm and organized patient zone above.Green spaces integrated across the site — both outdoors and within the interior — enhance the building’s connection to nature, improving air quality and overall well-being. Together, these elements create a functional, symbolic, and serene healthcare space rooted in the idea of purification and renewal.",
+    imageSrc: "/images/projectimg/HORIZON-HOUSE/1.jpg",
+    client: "",
+    area: "",
+    description: "",
     images: [
-      "/images/projectimg/alipt/1.jpg",
-      "/images/projectimg/alipt/2.jpg",
-      "/images/projectimg/alipt/3.jpg",
-      "/images/projectimg/alipt/4.jpg",
-      "/images/projectimg/alipt/5.jpg",
-      "/images/projectimg/alipt/6.jpg",
-      "/images/projectimg/alipt/7.jpg",
-      "/images/projectimg/alipt/8.jpg",
-      "/images/projectimg/alipt/9.jpg",
-      "/images/projectimg/alipt/10.jpg",
-      "/images/projectimg/alipt/11.jpg",
-      "/images/projectimg/alipt/12.jpg",
+      "/images/projectimg/HORIZON-HOUSE/1.jpg",
+      "/images/projectimg/HORIZON-HOUSE/2.jpg",
+      "/images/projectimg/HORIZON-HOUSE/3.jpg",
+      "/images/projectimg/HORIZON-HOUSE/4.jpg",
+      "/images/projectimg/HORIZON-HOUSE/5.jpg",
+      "/images/projectimg/HORIZON-HOUSE/6.jpg",
+      "/images/projectimg/HORIZON-HOUSE/7.jpg",
+
     ]
   }
   ,
   {
     id: 'p8',
     title: 'ADV SIDDIQUE RESIDENCE',
-    location: 'MANNARKKAD, KERALA',
+    location: '',
     category: 'RESIDENTIAL',
     imageSrc: "/images/projectimg/advsiddique/1.jpg",
     client: "ADV SIDDIQUE",
-    area: "8613 SQFT",
-    description: "The design of the Dialysis Center is guided by the idea of creating a healing and comforting environment that supports both patients and visitors. The architectural concept takes inspiration from the kidney and its purification process, expressed through a sculptural element beside the portico that not only symbolizes the organ but also serves as a structural support for the slab. The facade design features perforated screen walls that filter daylight and create an ever-changing play of shadows, colors, and reflections. These patterns bring warmth and softness to the minimal exterior while maintaining privacy for the interior spaces. All service functions are placed in the basement, ensuring a calm and organized patient zone above.Green spaces integrated across the site — both outdoors and within the interior — enhance the building’s connection to nature, improving air quality and overall well-being. Together, these elements create a functional, symbolic, and serene healthcare space rooted in the idea of purification and renewal.",
+    area: "",
+    description: "",
     images: [
       "/images/projectimg/advsiddique/1.jpg",
       "/images/projectimg/advsiddique/2.jpg",
@@ -206,12 +202,12 @@ export const PROJECTS = [
   {
     id: 'p9',
     title: 'RAZAK RESIDENCE',
-    location: 'MANNARKKAD, KERALA',
+    location: '',
     category: 'RESIDENTIAL',
     imageSrc: "/images/projectimg/razakresidence/ATOZ_Photo - 1.jpg",
     client: "RAZAK",
-    area: "8613 SQFT",
-    description: "The design of the Dialysis Center is guided by the idea of creating a healing and comforting environment that supports both patients and visitors. The architectural concept takes inspiration from the kidney and its purification process, expressed through a sculptural element beside the portico that not only symbolizes the organ but also serves as a structural support for the slab. The facade design features perforated screen walls that filter daylight and create an ever-changing play of shadows, colors, and reflections. These patterns bring warmth and softness to the minimal exterior while maintaining privacy for the interior spaces. All service functions are placed in the basement, ensuring a calm and organized patient zone above.Green spaces integrated across the site — both outdoors and within the interior — enhance the building’s connection to nature, improving air quality and overall well-being. Together, these elements create a functional, symbolic, and serene healthcare space rooted in the idea of purification and renewal.",
+    area: "",
+    description: "",
     images: [
       "/images/projectimg/razakresidence/ATOZ_Photo - 1.jpg",
       "/images/projectimg/razakresidence/ATOZ_Photo - 2.jpg",
@@ -236,21 +232,25 @@ export const PROJECTS = [
   },
   {
     id: 'p10',
-    title: 'RAMSHAD RESIDENCE',
-    location: 'MANNARKKAD, KERALA',
+    title: 'SHAMEER ALI RESIDENCE',
+    location: '',
     category: 'RESIDENTIAL',
-    imageSrc: "/images/projectimg/ramshadresidence/1.jpg",
-    client: "RAMSHAD",
-    area: "8613 SQFT",
-    description: "The design of the Dialysis Center is guided by the idea of creating a healing and comforting environment that supports both patients and visitors. The architectural concept takes inspiration from the kidney and its purification process, expressed through a sculptural element beside the portico that not only symbolizes the organ but also serves as a structural support for the slab. The facade design features perforated screen walls that filter daylight and create an ever-changing play of shadows, colors, and reflections. These patterns bring warmth and softness to the minimal exterior while maintaining privacy for the interior spaces. All service functions are placed in the basement, ensuring a calm and organized patient zone above.Green spaces integrated across the site — both outdoors and within the interior — enhance the building’s connection to nature, improving air quality and overall well-being. Together, these elements create a functional, symbolic, and serene healthcare space rooted in the idea of purification and renewal.",
+    imageSrc: "/images/projectimg/SHAMEERALI-RESIDENCE/1.jpg",
+    client: "SHAMEER ALI",
+    area: "",
+    description: "",
     images: [
-      "/images/projectimg/ramshadresidence/1.jpg",
-      "/images/projectimg/ramshadresidence/2.jpg",
-      "/images/projectimg/ramshadresidence/3.jpg",
-      "/images/projectimg/ramshadresidence/4.jpg",
-      "/images/projectimg/ramshadresidence/5.jpg",
-      "/images/projectimg/ramshadresidence/6.jpg",
-      "/images/projectimg/ramshadresidence/7.jpg",
+      "/images/projectimg/SHAMEERALI-RESIDENCE/1.jpg",
+      "/images/projectimg/SHAMEERALI-RESIDENCE/2.jpg",
+      "/images/projectimg/SHAMEERALI-RESIDENCE/3.jpg",
+
+      "/images/projectimg/SHAMEERALI-RESIDENCE/5.jpg",
+      "/images/projectimg/SHAMEERALI-RESIDENCE/6.jpg",
+      "/images/projectimg/SHAMEERALI-RESIDENCE/8.jpg",
+      "/images/projectimg/SHAMEERALI-RESIDENCE/9.COVER.jpg",
+      "/images/projectimg/SHAMEERALI-RESIDENCE/11.G.F.jpg",
+      "/images/projectimg/SHAMEERALI-RESIDENCE/10.site.jpg",
+      "/images/projectimg/SHAMEERALI-RESIDENCE/12.F.F.jpg",
 
 
     ]
@@ -258,12 +258,12 @@ export const PROJECTS = [
   {
     id: 'p11',
     title: 'THE CACTUS',
-    location: 'MANNARKKAD, KERALA',
+    location: '',
     category: 'HOSPITALITY',
     imageSrc: "/images/projectimg/thecactus/3.jpg",
-    client: "RAMSHAD",
-    area: "8613 SQFT",
-    description: "The design of the Dialysis Center is guided by the idea of creating a healing and comforting environment that supports both patients and visitors. The architectural concept takes inspiration from the kidney and its purification process, expressed through a sculptural element beside the portico that not only symbolizes the organ but also serves as a structural support for the slab. The facade design features perforated screen walls that filter daylight and create an ever-changing play of shadows, colors, and reflections. These patterns bring warmth and softness to the minimal exterior while maintaining privacy for the interior spaces. All service functions are placed in the basement, ensuring a calm and organized patient zone above.Green spaces integrated across the site — both outdoors and within the interior — enhance the building’s connection to nature, improving air quality and overall well-being. Together, these elements create a functional, symbolic, and serene healthcare space rooted in the idea of purification and renewal.",
+    client: "",
+    area: "",
+    description: "",
     images: [
       "/images/projectimg/thecactus/3.jpg",
       "/images/projectimg/thecactus/9.jpg",
@@ -286,9 +286,9 @@ export const PROJECTS = [
     location: 'AGALI, KERALA',
     category: 'HOSPITALITY',
     imageSrc: "/images/projectimg/farmhouseagali/1.jpg",
-    client: "RAMSHAD",
-    area: "8613 SQFT",
-    description: "The design of the Dialysis Center is guided by the idea of creating a healing and comforting environment that supports both patients and visitors. The architectural concept takes inspiration from the kidney and its purification process, expressed through a sculptural element beside the portico that not only symbolizes the organ but also serves as a structural support for the slab. The facade design features perforated screen walls that filter daylight and create an ever-changing play of shadows, colors, and reflections. These patterns bring warmth and softness to the minimal exterior while maintaining privacy for the interior spaces. All service functions are placed in the basement, ensuring a calm and organized patient zone above.Green spaces integrated across the site — both outdoors and within the interior — enhance the building’s connection to nature, improving air quality and overall well-being. Together, these elements create a functional, symbolic, and serene healthcare space rooted in the idea of purification and renewal.",
+    client: "",
+    area: "",
+    description: "",
     images: [
       "/images/projectimg/farmhouseagali/1.jpg",
       "/images/projectimg/farmhouseagali/2.jpg",
@@ -305,12 +305,12 @@ export const PROJECTS = [
   {
     id: 'p13',
     title: 'WEEKEND HOMES',
-    location: 'AGALI, KERALA',
+    location: '',
     category: 'HOSPITALITY',
     imageSrc: "/images/projectimg/weekend-homes/2.jpg",
-    client: "RAMSHAD",
-    area: "8613 SQFT",
-    description: "The design of the Dialysis Center is guided by the idea of creating a healing and comforting environment that supports both patients and visitors. The architectural concept takes inspiration from the kidney and its purification process, expressed through a sculptural element beside the portico that not only symbolizes the organ but also serves as a structural support for the slab. The facade design features perforated screen walls that filter daylight and create an ever-changing play of shadows, colors, and reflections. These patterns bring warmth and softness to the minimal exterior while maintaining privacy for the interior spaces. All service functions are placed in the basement, ensuring a calm and organized patient zone above.Green spaces integrated across the site — both outdoors and within the interior — enhance the building’s connection to nature, improving air quality and overall well-being. Together, these elements create a functional, symbolic, and serene healthcare space rooted in the idea of purification and renewal.",
+    client: "",
+    area: "",
+    description: "",
     images: [
       "/images/projectimg/weekend-homes/2.jpg",
       "/images/projectimg/weekend-homes/3.jpg",
@@ -331,9 +331,9 @@ export const PROJECTS = [
     location: 'BANASURA, KERALA',
     category: 'HOSPITALITY',
     imageSrc: "/images/projectimg/resort-banasura/1.jpg",
-    client: "RAMSHAD",
-    area: "8613 SQFT",
-    description: "The design of the Dialysis Center is guided by the idea of creating a healing and comforting environment that supports both patients and visitors. The architectural concept takes inspiration from the kidney and its purification process, expressed through a sculptural element beside the portico that not only symbolizes the organ but also serves as a structural support for the slab. The facade design features perforated screen walls that filter daylight and create an ever-changing play of shadows, colors, and reflections. These patterns bring warmth and softness to the minimal exterior while maintaining privacy for the interior spaces. All service functions are placed in the basement, ensuring a calm and organized patient zone above.Green spaces integrated across the site — both outdoors and within the interior — enhance the building’s connection to nature, improving air quality and overall well-being. Together, these elements create a functional, symbolic, and serene healthcare space rooted in the idea of purification and renewal.",
+    client: "",
+    area: "",
+    description: "",
     images: [
       "/images/projectimg/resort-banasura/1.jpg",
       "/images/projectimg/resort-banasura/2.jpg",
@@ -351,9 +351,9 @@ export const PROJECTS = [
     location: 'KOTAGIRI, KERALA',
     category: 'HOSPITALITY',
     imageSrc: "/images/projectimg/resort-kotagiri/1.jpg",
-    client: "RAMSHAD",
-    area: "8613 SQFT",
-    description: "The design of the Dialysis Center is guided by the idea of creating a healing and comforting environment that supports both patients and visitors. The architectural concept takes inspiration from the kidney and its purification process, expressed through a sculptural element beside the portico that not only symbolizes the organ but also serves as a structural support for the slab. The facade design features perforated screen walls that filter daylight and create an ever-changing play of shadows, colors, and reflections. These patterns bring warmth and softness to the minimal exterior while maintaining privacy for the interior spaces. All service functions are placed in the basement, ensuring a calm and organized patient zone above.Green spaces integrated across the site — both outdoors and within the interior — enhance the building’s connection to nature, improving air quality and overall well-being. Together, these elements create a functional, symbolic, and serene healthcare space rooted in the idea of purification and renewal.",
+    client: "",
+    area: "",
+    description: "",
     images: [
       "/images/projectimg/resort-kotagiri/1.jpg",
       "/images/projectimg/resort-kotagiri/2.jpg",
@@ -378,9 +378,9 @@ export const PROJECTS = [
     location: 'PALAKKAD, KERALA',
     category: 'COMMERCIAL',
     imageSrc: "/images/projectimg/commercial-palakkad/1.jpg",
-    client: "RAMSHAD",
-    area: "8613 SQFT",
-    description: "The design of the Dialysis Center is guided by the idea of creating a healing and comforting environment that supports both patients and visitors. The architectural concept takes inspiration from the kidney and its purification process, expressed through a sculptural element beside the portico that not only symbolizes the organ but also serves as a structural support for the slab. The facade design features perforated screen walls that filter daylight and create an ever-changing play of shadows, colors, and reflections. These patterns bring warmth and softness to the minimal exterior while maintaining privacy for the interior spaces. All service functions are placed in the basement, ensuring a calm and organized patient zone above.Green spaces integrated across the site — both outdoors and within the interior — enhance the building’s connection to nature, improving air quality and overall well-being. Together, these elements create a functional, symbolic, and serene healthcare space rooted in the idea of purification and renewal.",
+    client: "",
+    area: "",
+    description: "",
     images: [
       "/images/projectimg/commercial-palakkad/1.jpg",
       "/images/projectimg/commercial-palakkad/2.jpg",
@@ -394,18 +394,19 @@ export const PROJECTS = [
   },
   {
     id: 'p17',
-    title: 'AONE',
-    location: 'PALAKKAD, KERALA',
+    title: 'KVR',
+    location: '',
     category: 'COMMERCIAL',
-    imageSrc: "/images/projectimg/AONE/VIEW 1.jpg",
-    client: "RAMSHAD",
-    area: "8613 SQFT",
-    description: "The design of the Dialysis Center is guided by the idea of creating a healing and comforting environment that supports both patients and visitors. The architectural concept takes inspiration from the kidney and its purification process, expressed through a sculptural element beside the portico that not only symbolizes the organ but also serves as a structural support for the slab. The facade design features perforated screen walls that filter daylight and create an ever-changing play of shadows, colors, and reflections. These patterns bring warmth and softness to the minimal exterior while maintaining privacy for the interior spaces. All service functions are placed in the basement, ensuring a calm and organized patient zone above.Green spaces integrated across the site — both outdoors and within the interior — enhance the building’s connection to nature, improving air quality and overall well-being. Together, these elements create a functional, symbolic, and serene healthcare space rooted in the idea of purification and renewal.",
+    imageSrc: "/images/projectimg/KVR/1.jpg",
+    client: "",
+    area: "",
+    description: "",
     images: [
-      "/images/projectimg/AONE/VIEW 1.jpg",
-      "/images/projectimg/AONE/VIEW 2.jpg",
-      "/images/projectimg/AONE/VIEW 3.jpg",
-      "/images/projectimg/AONE/VIEW 4.jpg",
+      "/images/projectimg/KVR/1.jpg",
+      "/images/projectimg/KVR/2.1.jpg",
+      "/images/projectimg/KVR/3.1.jpg",
+      "/images/projectimg/KVR/4.1.jpg",
+      "/images/projectimg/KVR/5.1.jpg",
 
 
     ]
@@ -413,12 +414,12 @@ export const PROJECTS = [
   {
     id: 'p18',
     title: 'MOJO MOTORS',
-    location: 'PALAKKAD, KERALA',
+    location: '',
     category: 'COMMERCIAL',
     imageSrc: "/images/projectimg/MOJO-MOTORS/1.jpg",
-    client: "RAMSHAD",
-    area: "8613 SQFT",
-    description: "The design of the Dialysis Center is guided by the idea of creating a healing and comforting environment that supports both patients and visitors. The architectural concept takes inspiration from the kidney and its purification process, expressed through a sculptural element beside the portico that not only symbolizes the organ but also serves as a structural support for the slab. The facade design features perforated screen walls that filter daylight and create an ever-changing play of shadows, colors, and reflections. These patterns bring warmth and softness to the minimal exterior while maintaining privacy for the interior spaces. All service functions are placed in the basement, ensuring a calm and organized patient zone above.Green spaces integrated across the site — both outdoors and within the interior — enhance the building’s connection to nature, improving air quality and overall well-being. Together, these elements create a functional, symbolic, and serene healthcare space rooted in the idea of purification and renewal.",
+    client: "",
+    area: "",
+    description: "",
     images: [
       "/images/projectimg/MOJO-MOTORS/1.jpg",
       "/images/projectimg/MOJO-MOTORS/2.jpg",
@@ -435,9 +436,9 @@ export const PROJECTS = [
     location: 'PERINTHALMANNA, KERALA',
     category: 'COMMERCIAL',
     imageSrc: "/images/projectimg/NEW-STAR-MOTORS/1.jpg",
-    client: "RAMSHAD",
-    area: "8613 SQFT",
-    description: "The design of the Dialysis Center is guided by the idea of creating a healing and comforting environment that supports both patients and visitors. The architectural concept takes inspiration from the kidney and its purification process, expressed through a sculptural element beside the portico that not only symbolizes the organ but also serves as a structural support for the slab. The facade design features perforated screen walls that filter daylight and create an ever-changing play of shadows, colors, and reflections. These patterns bring warmth and softness to the minimal exterior while maintaining privacy for the interior spaces. All service functions are placed in the basement, ensuring a calm and organized patient zone above.Green spaces integrated across the site — both outdoors and within the interior — enhance the building’s connection to nature, improving air quality and overall well-being. Together, these elements create a functional, symbolic, and serene healthcare space rooted in the idea of purification and renewal.",
+    client: "",
+    area: "",
+    description: "",
     images: [
       "/images/projectimg/NEW-STAR-MOTORS/1.jpg",
       "/images/projectimg/NEW-STAR-MOTORS/2.jpg",
@@ -452,9 +453,9 @@ export const PROJECTS = [
     location: 'DUBAI,UAE',
     category: 'INTERIOR',
     imageSrc: "/images/projectimg/KIOSK-DUBAI/3.jpg",
-    client: "RAMSHAD",
-    area: "8613 SQFT",
-    description: "The design of the Dialysis Center is guided by the idea of creating a healing and comforting environment that supports both patients and visitors. The architectural concept takes inspiration from the kidney and its purification process, expressed through a sculptural element beside the portico that not only symbolizes the organ but also serves as a structural support for the slab. The facade design features perforated screen walls that filter daylight and create an ever-changing play of shadows, colors, and reflections. These patterns bring warmth and softness to the minimal exterior while maintaining privacy for the interior spaces. All service functions are placed in the basement, ensuring a calm and organized patient zone above.Green spaces integrated across the site — both outdoors and within the interior — enhance the building’s connection to nature, improving air quality and overall well-being. Together, these elements create a functional, symbolic, and serene healthcare space rooted in the idea of purification and renewal.",
+    client: "",
+    area: "",
+    description: "",
     images: [
       "/images/projectimg/KIOSK-DUBAI/3.jpg",
       "/images/projectimg/KIOSK-DUBAI/4.jpg",
@@ -474,12 +475,12 @@ export const PROJECTS = [
   {
     id: 'p21',
     title: 'SYMPHONY DREAMS ',
-    location: 'PALAKKAD,KERALA',
+    location: '',
     category: 'RESIDENTIAL',
     imageSrc: "/images/projectimg/symphonydream/1.jpg",
-    client: "RAMSHAD",
-    area: "8613 SQFT",
-    description: "The design of the Dialysis Center is guided by the idea of creating a healing and comforting environment that supports both patients and visitors. The architectural concept takes inspiration from the kidney and its purification process, expressed through a sculptural element beside the portico that not only symbolizes the organ but also serves as a structural support for the slab. The facade design features perforated screen walls that filter daylight and create an ever-changing play of shadows, colors, and reflections. These patterns bring warmth and softness to the minimal exterior while maintaining privacy for the interior spaces. All service functions are placed in the basement, ensuring a calm and organized patient zone above.Green spaces integrated across the site — both outdoors and within the interior — enhance the building’s connection to nature, improving air quality and overall well-being. Together, these elements create a functional, symbolic, and serene healthcare space rooted in the idea of purification and renewal.",
+    client: "",
+    area: "",
+    description: "",
     images: [
       "/images/projectimg/symphonydream/1.jpg",
       "/images/projectimg/symphonydream/2.jpg",
@@ -496,6 +497,197 @@ export const PROJECTS = [
 
     ]
   },
+  {
+    id: 'p22',
+    title: "SHASHI'S VILLA",
+    location: 'BANGALORE,KARNATAKA',
+    category: 'RESIDENTIAL',
+    imageSrc: "/images/projectimg/SHASHI-VILLA/4.jpg",
+    client: "SHASHI",
+    area: "",
+    description: "",
+    images: [
+      "/images/projectimg/SHASHI-VILLA/4.jpg",
+      "/images/projectimg/SHASHI-VILLA/5.jpg",
+      "/images/projectimg/SHASHI-VILLA/6.jpg",
+      "/images/projectimg/SHASHI-VILLA/7.jpg",
+      "/images/projectimg/SHASHI-VILLA/9.jpg",
+
+
+
+    ]
+  },
+  {
+    id: 'p23',
+    title: 'ALTHAF RESIDENCE ',
+    location: '',
+    category: 'INTERIOR',
+    imageSrc: "/images/projectimg/ALTHAF-RESIDENCE/1.jpg",
+    client: "ALTHAF",
+    area: "",
+    description: "",
+    images: [
+      "/images/projectimg/ALTHAF-RESIDENCE/1.jpg",
+      "/images/projectimg/ALTHAF-RESIDENCE/2.jpg",
+      "/images/projectimg/ALTHAF-RESIDENCE/3.jpg",
+      "/images/projectimg/ALTHAF-RESIDENCE/4.jpg",
+      "/images/projectimg/ALTHAF-RESIDENCE/5.jpg",
+      "/images/projectimg/ALTHAF-RESIDENCE/6.jpg",
+      "/images/projectimg/ALTHAF-RESIDENCE/7.jpg",
+      "/images/projectimg/ALTHAF-RESIDENCE/8.jpg",
+      "/images/projectimg/ALTHAF-RESIDENCE/9.jpg",
+      "/images/projectimg/ALTHAF-RESIDENCE/10.jpg",
+
+
+    ]
+  },
+  {
+    id: 'p24',
+    title: "SHASHI'S VILLA",
+    location: 'BANGALORE,KARNATAKA',
+    category: 'INTERIOR',
+    imageSrc: "/images/projectimg/SHASHI-VILLA-INTERIOR/1.1.png",
+    client: "SHASHI",
+    area: "",
+    description: "",
+    images: [
+      "/images/projectimg/SHASHI-VILLA-INTERIOR/1.1.png",
+      "/images/projectimg/SHASHI-VILLA-INTERIOR/1.png",
+      "/images/projectimg/SHASHI-VILLA-INTERIOR/3.png",
+      "/images/projectimg/SHASHI-VILLA-INTERIOR/4.png",
+      "/images/projectimg/SHASHI-VILLA-INTERIOR/5.png",
+      "/images/projectimg/SHASHI-VILLA-INTERIOR/6.png",
+      "/images/projectimg/SHASHI-VILLA-INTERIOR/7.png",
+      "/images/projectimg/SHASHI-VILLA-INTERIOR/8.png",
+      "/images/projectimg/SHASHI-VILLA-INTERIOR/9.png",
+      "/images/projectimg/SHASHI-VILLA-INTERIOR/10.png",
+      "/images/projectimg/SHASHI-VILLA-INTERIOR/11.png",
+      "/images/projectimg/SHASHI-VILLA-INTERIOR/12.jpg",
+      "/images/projectimg/SHASHI-VILLA-INTERIOR/3.2.png",
+
+
+
+    ]
+  },
+  {
+    id: 'p25',
+    title: "SYMPHONY OF DREAMS",
+    location: 'KOLLAM,KERALA',
+    category: 'INTERIOR',
+    imageSrc: "/images/projectimg/SYMPHONY-KOLLAM/3.jpg",
+    client: "",
+    area: "",
+    description: "",
+    images: [
+      "/images/projectimg/SYMPHONY-KOLLAM/3.jpg",
+      "/images/projectimg/SYMPHONY-KOLLAM/4.jpg",
+      "/images/projectimg/SYMPHONY-KOLLAM/5.jpg",
+      "/images/projectimg/SYMPHONY-KOLLAM/6.jpg",
+      "/images/projectimg/SYMPHONY-KOLLAM/7.jpg",
+      "/images/projectimg/SYMPHONY-KOLLAM/8.jpg",
+      "/images/projectimg/SYMPHONY-KOLLAM/9.jpg",
+      "/images/projectimg/SYMPHONY-KOLLAM/10.jpg",
+      "/images/projectimg/SYMPHONY-KOLLAM/11.jpg",
+      "/images/projectimg/SYMPHONY-KOLLAM/12.jpg",
+
+
+    ]
+  },
+  {
+    id: 'p26',
+    title: "MAJEED'S RESIDENCE",
+    location: '',
+    category: 'RENOVATION',
+    imageSrc: "/images/projectimg/MAJEED RESIDENCE/1.jpg",
+    client: "",
+    area: "",
+    description: "",
+    images: [
+      "/images/projectimg/MAJEED RESIDENCE/1.jpg",
+      "/images/projectimg/MAJEED RESIDENCE/2.jpg",
+      "/images/projectimg/MAJEED RESIDENCE/3.jpg",
+      "/images/projectimg/MAJEED RESIDENCE/4.jpg",
+      "/images/projectimg/MAJEED RESIDENCE/5.jpg",
+      "/images/projectimg/MAJEED RESIDENCE/6.jpg",
+      "/images/projectimg/MAJEED RESIDENCE/7.jpg",
+      "/images/projectimg/MAJEED RESIDENCE/8.jpg",
+      "/images/projectimg/MAJEED RESIDENCE/9.jpg",
+
+
+    ]
+  },
+  {
+    id: 'p27',
+    title: "ALI  PT RESIDENCE",
+    location: '',
+    category: 'RENOVATION',
+    imageSrc: "/images/projectimg/ALI-PT-INTERIOR/1.jpg",
+    client: "ALI PT",
+    area: "",
+    description: "",
+    images: [
+     "/images/projectimg/ALI-PT-INTERIOR/1.jpg",
+     "/images/projectimg/ALI-PT-INTERIOR/2.jpg",
+     "/images/projectimg/ALI-PT-INTERIOR/3.jpg",
+     "/images/projectimg/ALI-PT-INTERIOR/4.jpg",
+     "/images/projectimg/ALI-PT-INTERIOR/5.jpg",
+     "/images/projectimg/ALI-PT-INTERIOR/6.jpg",
+     "/images/projectimg/ALI-PT-INTERIOR/7.jpg",
+     "/images/projectimg/ALI-PT-INTERIOR/8.jpg",
+     "/images/projectimg/ALI-PT-INTERIOR/9.jpg",
+     "/images/projectimg/ALI-PT-INTERIOR/10.jpg",
+     "/images/projectimg/ALI-PT-INTERIOR/11.jpg",
+     "/images/projectimg/ALI-PT-INTERIOR/12.jpg",
+
+
+    ]
+  },
+   {
+    id: 'p28',
+    title: "RADHIKA-RESIDENC",
+    location: '',
+    category: 'RENOVATION',
+    imageSrc: "/images/projectimg/RADHIKA-RESIDENCE/1.jpg",
+    client: "RADHIKA",
+    area: "",
+    description: "",
+    images: [
+     "/images/projectimg/RADHIKA-RESIDENCE/1.jpg",
+     "/images/projectimg/RADHIKA-RESIDENCE/2.jpg",
+     "/images/projectimg/RADHIKA-RESIDENCE/3.jpg",
+     "/images/projectimg/RADHIKA-RESIDENCE/4.jpg",
+     "/images/projectimg/RADHIKA-RESIDENCE/6.jpg",
+     "/images/projectimg/RADHIKA-RESIDENCE/fds.jpg",
+
+
+    ]
+  },
+  {
+    id: 'p29',
+    title: "KOTAGIRI RESORT",
+    location: '',
+    category: 'RENOVATION',
+    imageSrc: "/images/projectimg/resort-kotagiri/1.jpg",
+    client: "RADHIKA",
+    area: "",
+    description: "",
+    images: [
+    "/images/projectimg/resort-kotagiri/1.jpg",
+    "/images/projectimg/resort-kotagiri/2.jpg",
+    "/images/projectimg/resort-kotagiri/3.jpg",
+    "/images/projectimg/resort-kotagiri/4.jpg",
+    "/images/projectimg/resort-kotagiri/5.jpg",
+    "/images/projectimg/resort-kotagiri/6.jpg",
+    "/images/projectimg/resort-kotagiri/7.jpg",
+    "/images/projectimg/resort-kotagiri/8.jpg",
+    "/images/projectimg/resort-kotagiri/9.jpg",
+    "/images/projectimg/resort-kotagiri/10.jpg",
+    "/images/projectimg/resort-kotagiri/11.jpg",
+    "/images/projectimg/resort-kotagiri/12.jpg",
+    ]
+  },
+  
+
 
 ];
 
@@ -503,9 +695,9 @@ export const PROJECTS = [
 export const featuredProjects = [
   "/images/projectimg/advsiddique/1.jpg",
   "/images/projectimg/aliasgar/1.jpg",
-    "/images/projectimg/avaclinic/1.png",
-    "/images/projectimg/avaclinic/5.png",
-     "/images/projectimg/navyathdental/C.png",
-      "/images/projectimg/symphonydream/1.jpg",
+  "/images/projectimg/avaclinic/1.png",
+  "/images/projectimg/MOJO-MOTORS/1.jpg",
+  "/images/projectimg/navyathdental/C.png",
+  "/images/projectimg/symphonydream/1.jpg",
 
 ]

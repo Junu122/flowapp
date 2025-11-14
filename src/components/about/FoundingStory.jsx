@@ -13,18 +13,18 @@ const FoundingStory = () => {
         <div className="story-image-column">
           <img src={foundersImage} alt="Founders or early studio" className="story-image" />
           {/* Optional: Add key milestones as a simple list */}
-          <ul className="milestones-list">
+          {/* <ul className="milestones-list">
             <li>**2005:** Firm established by Dr. Aris and Eng. Liu</li>
             <li>**2012:** Completed first major institutional project</li>
             <li>**2020:** Awarded the National Design Excellence Award</li>
-          </ul>
+          </ul> */}
         </div>
         
         {/* Right Column: Narrative Text */}
         <div className="story-text-column">
           <h2 className="story-title">Our Foundation: A Vision for Architectural Integrity</h2>
           <p className="story-paragraph">
-            Flow Architects is driven by a simple, yet profound philosophy: that architecture must serve humanity and context equally. Disillusioned with mass-produced, transient design, Dr. Aris sought to build a practice dedicated to longevity, meticulous craft, and environmental responsibility.
+            Flow Architects is driven by a simple, yet profound philosophy: that architecture must serve humanity and context equally. Disillusioned with mass-produced, transient design, We sought to build a practice dedicated to longevity, meticulous craft, and environmental responsibility.
           </p>
           <p className="story-paragraph">
             Starting from a small studio, our firm quickly grew through referrals, establishing a reputation for taking on technically challenging projects that demand innovative structural and sustainable solutions. Our commitment to deep client collaboration ensures every space we create is not just built, but perfectly curated to the user's needs.

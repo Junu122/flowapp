@@ -2,7 +2,7 @@
 
 .service-hero-section {
     /* Set up the container */
-    background: url('/images/home.avif') no-repeat center center/cover; /* Replace with your high-quality architecture image */
+    background: url('/images/SERVICE-COVER.JPG') no-repeat center center/cover; /* Replace with your high-quality architecture image */
     background-color: #333; /* Fallback color */
     color: white; /* Text color over the image */
     padding: 100px 5%; /* Vertical padding and horizontal margin */

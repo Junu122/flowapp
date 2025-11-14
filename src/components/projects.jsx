@@ -19,7 +19,7 @@ const Projects = () => {
         </FadeInWhenVisible>
         <FadeInWhenVisible delay={0.4}>
             <p className="featured-projects-description">
-          Explore a selection of my recent work showcasing innovative solutions 
+          Explore a selection of our recent work showcasing innovative solutions 
           and creative problem-solving across various technologies and domains.
         </p>
         </FadeInWhenVisible>

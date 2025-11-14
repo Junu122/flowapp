@@ -6,7 +6,7 @@ import FadeInWhenVisible from './FadeInVisible';
 const Hero = () => {
     const  BannerLayer = {
     image:
-      '/images/hero-img.jpeg',
+      '/images/HOMEPAGE-COVER.jpg',
     translateY: [0, 50],
     opacity: [1, 0.3],
     scale: [1.05, 1, 'easeOutCubic'],
@@ -40,14 +40,14 @@ const Hero = () => {
                 <p className="hero-subtitle">Architecture & Design Studio</p>
                 </FadeInWhenVisible> */}
                  <FadeInWhenVisible delay={1.4}>
-                <h1 className="hero-title "  >
+                <h1 className="hero-title"  >
                    
                     Creating <strong>Timeless Spaces</strong> for Modern Living
                 </h1>
                 </FadeInWhenVisible>
                 <FadeInWhenVisible delay={1.6}>
                 <p className="hero-description">
-                    We blend innovative design with sustainable practices to transform visions into architectural masterpieces that stand the test of time.
+                   Blending modern sensibilities with lasting design values to create spaces that feel personal,balanced and enduring
                 </p>
                 </FadeInWhenVisible>
                 <div className="hero-buttons">

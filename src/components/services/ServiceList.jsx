@@ -1,9 +1,6 @@
 import React from 'react';
 import './ServiceList.css';
-import archIcon from '../../../public/images/postimg1.jpg';
-import interiorIcon from '../../../public/images/postimg1.jpg';
-import landscapeIcon from '../../../public/images/postimg1.jpg';
-import HeaderContainer from '../HeaderContainer';
+
 const services = [
     {
         icon: '/images/drawing.png', // Placeholder for an icon (e.g., design icon)

@@ -8,7 +8,7 @@ const FadeInWhenVisible = ({ children, delay = 0, className = '' }) => {
     // We use a low threshold (0.1) so it triggers quickly when entering view
     const { ref, inView } = useInView({
         threshold: 0.3, 
-        triggerOnce: false, // Crucial: only runs the animation one time
+        triggerOnce: true, // Crucial: only runs the animation one time
     });
 
     // 2. Conditionally apply the animation class
