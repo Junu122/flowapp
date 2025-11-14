@@ -195,7 +195,7 @@
 
 @media (max-width: 768px) {
     .parallax-layer{
-        height: 80vh;
+        height: 100vh;
         margin-top: 69px;
     }
     .hero-section {
@@ -257,7 +257,7 @@
 
 @media (max-width: 480px) {
     .parallax-layer{
-        height: 60vh;
+        height: 90vh;
     }
   
     
