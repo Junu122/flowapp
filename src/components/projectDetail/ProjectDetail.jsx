@@ -35,7 +35,7 @@ const ProjectDetail = () => {
       <div className="detail-content-wrapper">
         <div className="detail-info-box">
           
-          <h2 className="info-box-heading">Project Information <span className="red-line"></span></h2>
+          <h2 className="info-box-heading">Project Information </h2>
 
           <div className="info-row">
             <span className="info-label">LOCATION</span>
@@ -59,12 +59,7 @@ const ProjectDetail = () => {
 
         </div>
         
-        <div className="detail-description">
-          <h2 className="description-heading">Concept & Vision</h2>
       
-            <p  className="description-paragraph">{paragraphs}</p>
-   
-        </div>
       </div>
       
       {/* --- Section 3: Full Project Gallery --- */}
@@ -84,7 +79,21 @@ const ProjectDetail = () => {
           </div>
         </div>
       )}
+
+      {
+        paragraphs&& (
+          <div className="detail-description">
+          <h2 className="description-heading">Concept & Vision <span className="red-line"></span></h2>
+          <p className='description-paragraph '>{paragraphs}</p>
+          </div>
+        )
+       
+      }
+        
       
+          
+   
+        
     </div>
   );
 };

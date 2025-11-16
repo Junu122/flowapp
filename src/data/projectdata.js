@@ -7,7 +7,7 @@ export const PROJECTS = [
     imageSrc: '/images/projectimg/navyathdental/C.png',
     client: "DR JITESH NK",
     area: " 1417 SQFT",
-    description: "The design concept focuses on creating a modern minimal clinic that feels light, open, and welcoming.The layout is guided by clear circulation and clean lines, ensuring easy movement and functional efficiency.Spaces are visually connected through glass partitions allowing natural light to filter across the clinic, softening boundaries and creating a sense of openness.The interiors are envisioned as more than a clinical space—they are designed as a calmingexperience for both patients and practitioners.By avoiding the closed, restrictive feel of",
+    description: "The design concept focuses on creating a modern minimal clinic that feels light, open, and welcoming.The layout is guided by clear circulation and clean lines, ensuring easy movement and functional efficiency.Spaces are visually connected through glass partitions allowing natural light to filter across the clinic, softening boundaries and creating a sense of openness.The interiors are envisioned as more than a clinical space—they are designed as a calmingexperience for both patients and practitioners.By avoiding the closed, restrictive feel of conventional clinics, the design introduces warmth, comfort, and transparency with Neutral tones, natural finishes and greenery. Every space is composed to promote healing and trust: open yet private, minimal yet warm, professional yet human.To achieve a balance, the material palette is anchored in neutral beige tones that visually expand the rooms and enhance natural brightness. Warm earthy finishes such as wood and veneer introduce comfort and a human touch, while a green fluted panel and wooden texture adds depth and an accent character. Glass partitions and glass blocks reinforce openness and fluidity, blurring the divide between spaces without compromising privacy. For flooring, matte tiles were selected to maintain a sleek, minimal look that complements the overall palette",
     images: [
       "/images/projectimg/navyathdental/C.png",
       "/images/projectimg/navyathdental/D.png",
@@ -37,7 +37,7 @@ export const PROJECTS = [
     imageSrc: '/images/projectimg/avaclinic/1.png',
     client: "DR NASEEHA",
     area: "260 SQFT",
-    description: "Designed within a compact footprint, this project transforms a single large room into two distinct zones — a reception and waiting area in the front and a consultation and treatment space at the rear. The layout was carefully planned to ensure clear spatial hierarchy, functional efficiency, and visual continuity within a limited area.The interior palette embraces soft beige, muted green, and warm wood tones, creating a light and tranquil atmosphere that reflects the clinic’s healing philosophy. The material selection and tone were intentionally kept minimal to evoke a sense of calm and connection to nature.The reception and pharmacy counter form the visual anchor of the space. A curved white counter complements a linear backdrop of illuminated wooden shelves that neatly display homeopathic medicines. This interplay of form and light enhances both functionality and aesthetic clarity.The waiting area features a continuous built-in bench with upholstered cushions in neutral shades. Vertical wall panelling and focused wall washers add rhythm and warmth, defining the seating zone without visual clutter.",
+    description: "Designed within a compact footprint, this project transforms a single large room into two distinct zones — a reception and waiting area in the front and a consultation and treatment space at the rear. The layout was carefully planned to ensure clear spatial hierarchy, functional efficiency, and visual continuity within a limited area.The interior palette embraces soft beige, muted green, and warm wood tones, creating a light and tranquil atmosphere that reflects the clinic’s healing philosophy. The material selection and tone were intentionally kept minimal to evoke a sense of calm and connection to nature.The reception and pharmacy counter form the visual anchor of the space. A curved white counter complements a linear backdrop of illuminated wooden shelves that neatly display homeopathic medicines. This interplay of form and light enhances both functionality and aesthetic clarity.The waiting area features a continuous built-in bench with upholstered cushions in neutral shades. Vertical wall panelling and focused wall washers add rhythm and warmth, defining the seating zone without visual clutter.Overall, the design achieves a delicate balance of functionality and calm minimalism, transforming a small footprint into an environment that feels open, natural, and conducive to healing.",
     images: [
       "/images/projectimg/avaclinic/1.png",
       "/images/projectimg/avaclinic/2.png",
@@ -127,12 +127,12 @@ export const PROJECTS = [
   },
   {
     id: 'p6',
-    title: 'ALI ASAGAR RESIDENCE',
-    location: 'MANNARKKAD, KERALA',
+    title: 'THE CANOE',
+    location: 'PALLIKKURUPPU, KERALA',
     category: 'RESIDENTIAL',
     imageSrc: "/images/projectimg/aliasgar/1.jpg",
     client: "ALI ASGAR",
-    area: "",
+    area: "5685 sqft",
     description: "",
     images: [
       "/images/projectimg/aliasgar/1.jpg",
@@ -157,7 +157,7 @@ export const PROJECTS = [
   {
     id: 'p7',
     title: 'HORIZON HOUSE',
-    location: '',
+    location: 'PERINTHALMANNA, KERALA',
     category: 'RESIDENTIAL',
     imageSrc: "/images/projectimg/HORIZON-HOUSE/1.jpg",
     client: "",
@@ -178,7 +178,7 @@ export const PROJECTS = [
   {
     id: 'p8',
     title: 'ADV SIDDIQUE RESIDENCE',
-    location: '',
+    location: 'ARYAMBHAVU, KERALA',
     category: 'RESIDENTIAL',
     imageSrc: "/images/projectimg/advsiddique/1.jpg",
     client: "ADV SIDDIQUE",
@@ -201,12 +201,12 @@ export const PROJECTS = [
   },
   {
     id: 'p9',
-    title: 'RAZAK RESIDENCE',
-    location: '',
+    title: 'RAZACK RESIDENCE',
+    location: 'NATTUKKAL, KERALA',
     category: 'RESIDENTIAL',
     imageSrc: "/images/projectimg/razakresidence/ATOZ_Photo - 1.jpg",
-    client: "RAZAK",
-    area: "",
+    client: "RAZACK",
+    area: "5112 sqft",
     description: "",
     images: [
       "/images/projectimg/razakresidence/ATOZ_Photo - 1.jpg",
@@ -233,12 +233,12 @@ export const PROJECTS = [
   {
     id: 'p10',
     title: 'SHAMEER ALI RESIDENCE',
-    location: '',
+    location: 'MANNARKKAD, KERALA',
     category: 'RESIDENTIAL',
     imageSrc: "/images/projectimg/SHAMEERALI-RESIDENCE/1.jpg",
     client: "SHAMEER ALI",
-    area: "",
-    description: "",
+    area: "1600 sqft",
+    description: "Nestled in peaceful Mannarkkad, the Ali residence sits on a square plot facing west, with the main entrance from that direction and a pedestrian road to the south. The residence is located a bit  below the road level, so the entry to the sitout gently stepped down through the front yard landscaping. Designed to tackle strong sunlight from the southwest, the architecture prioritizes natural light and airflow through clever spatial planning by the use of a double height airy courtyard with a skylight in the west. This design floods the interiors with sunlight and ensures a breezy, comfortable atmosphere.Inside, the ground floor is divided into three main sections. The north section greets guests with a foyer and leads to the living area, which opens onto a private courtyard, creating a seamless connection to nature. The central section houses the double-height staircase courtyard, dining area, and kitchen tucked away in the northeast corner, forming the dynamic heart of the house. This layout encourages interaction and smooth movement between spaces.The design emphasizes outdoor connections with two courtyards. The west-facing courtyard floods the living and central areas with natural light and air, integrating indoor and outdoor spaces visually. In contrast, a private courtyard in the northeast offers a tranquil escape accessible from both the living area and kitchen, perfect for family gatherings or enjoying quiet moments.Bedrooms are strategically placed on the quieter south side, accessible via the central area to ensure privacy and shielded from direct sunlight. Upstairs, accessed through the stairwell courtyard, two bedrooms offer views towards the west side, with a larger space on the west accommodating expansive views and featuring a well-placed terrace for enjoying the surroundings.In essence, the Ali residence blends style and practicality seamlessly. Spanning 1600 sqft, every corner is carefully designed to enhance comfort, functionality, and aesthetics. This home stands as a testament to thoughtful architecture that elevates living experiences, offering a stylish and affordable solution tailored to the client's needs in Mannarkkad",
     images: [
       "/images/projectimg/SHAMEERALI-RESIDENCE/1.jpg",
       "/images/projectimg/SHAMEERALI-RESIDENCE/2.jpg",
@@ -249,7 +249,7 @@ export const PROJECTS = [
       "/images/projectimg/SHAMEERALI-RESIDENCE/8.jpg",
       "/images/projectimg/SHAMEERALI-RESIDENCE/9.COVER.jpg",
       "/images/projectimg/SHAMEERALI-RESIDENCE/11.G.F.jpg",
-      "/images/projectimg/SHAMEERALI-RESIDENCE/10.site.jpg",
+      "/images/projectimg/SHAMEERALI-RESIDENCE/10.site .jpg",
       "/images/projectimg/SHAMEERALI-RESIDENCE/12.F.F.jpg",
 
 
@@ -258,10 +258,10 @@ export const PROJECTS = [
   {
     id: 'p11',
     title: 'THE CACTUS',
-    location: '',
+    location: 'ATTAPADY, KERALA',
     category: 'HOSPITALITY',
     imageSrc: "/images/projectimg/thecactus/3.jpg",
-    client: "",
+    client: " DR. SHAJI",
     area: "",
     description: "",
     images: [
@@ -286,8 +286,8 @@ export const PROJECTS = [
     location: 'AGALI, KERALA',
     category: 'HOSPITALITY',
     imageSrc: "/images/projectimg/farmhouseagali/1.jpg",
-    client: "",
-    area: "",
+    client: "MR. RAJA",
+    area: "450 SQFT",
     description: "",
     images: [
       "/images/projectimg/farmhouseagali/1.jpg",
@@ -375,10 +375,10 @@ export const PROJECTS = [
   {
     id: 'p16',
     title: 'COMMERCIAL PALAKKAD',
-    location: 'PALAKKAD, KERALA',
+    location: 'KALLADIKODE, KERALA',
     category: 'COMMERCIAL',
     imageSrc: "/images/projectimg/commercial-palakkad/1.jpg",
-    client: "",
+    client: "NAAZ BUILDERS",
     area: "",
     description: "",
     images: [
@@ -395,10 +395,10 @@ export const PROJECTS = [
   {
     id: 'p17',
     title: 'KVR',
-    location: '',
+    location: 'MANNARKKAD',
     category: 'COMMERCIAL',
     imageSrc: "/images/projectimg/KVR/1.jpg",
-    client: "",
+    client: "RASHEED",
     area: "",
     description: "",
     images: [
@@ -414,10 +414,10 @@ export const PROJECTS = [
   {
     id: 'p18',
     title: 'MOJO MOTORS',
-    location: '',
+    location: 'MANNARKKAD',
     category: 'COMMERCIAL',
     imageSrc: "/images/projectimg/MOJO-MOTORS/1.jpg",
-    client: "",
+    client: "MOJO MOTORS",
     area: "",
     description: "",
     images: [
@@ -449,7 +449,7 @@ export const PROJECTS = [
   },
   {
     id: 'p20',
-    title: 'KIOSK DUBAI ',
+    title: 'KIOSK CAFE ',
     location: 'DUBAI,UAE',
     category: 'INTERIOR',
     imageSrc: "/images/projectimg/KIOSK-DUBAI/3.jpg",
@@ -475,11 +475,11 @@ export const PROJECTS = [
   {
     id: 'p21',
     title: 'SYMPHONY DREAMS ',
-    location: '',
+    location: 'KOLLAM,KERALA',
     category: 'RESIDENTIAL',
     imageSrc: "/images/projectimg/symphonydream/1.jpg",
-    client: "",
-    area: "",
+    client: "ROBINSON",
+    area: "3792 SQFT",
     description: "",
     images: [
       "/images/projectimg/symphonydream/1.jpg",
@@ -503,7 +503,7 @@ export const PROJECTS = [
     location: 'BANGALORE,KARNATAKA',
     category: 'RESIDENTIAL',
     imageSrc: "/images/projectimg/SHASHI-VILLA/4.jpg",
-    client: "SHASHI",
+    client: "SHASHI NAIDU",
     area: "",
     description: "",
     images: [
@@ -520,11 +520,11 @@ export const PROJECTS = [
   {
     id: 'p23',
     title: 'ALTHAF RESIDENCE ',
-    location: '',
+    location: 'MELATUR, KERALA',
     category: 'INTERIOR',
     imageSrc: "/images/projectimg/ALTHAF-RESIDENCE/1.jpg",
     client: "ALTHAF",
-    area: "",
+    area: " 5000 SQFT",
     description: "",
     images: [
       "/images/projectimg/ALTHAF-RESIDENCE/1.jpg",
@@ -547,7 +547,7 @@ export const PROJECTS = [
     location: 'BANGALORE,KARNATAKA',
     category: 'INTERIOR',
     imageSrc: "/images/projectimg/SHASHI-VILLA-INTERIOR/1.1.png",
-    client: "SHASHI",
+    client: "SHASHI NAIDU",
     area: "",
     description: "",
     images: [
@@ -575,8 +575,8 @@ export const PROJECTS = [
     location: 'KOLLAM,KERALA',
     category: 'INTERIOR',
     imageSrc: "/images/projectimg/SYMPHONY-KOLLAM/3.jpg",
-    client: "",
-    area: "",
+    client: "ROBINSON",
+    area: "3792 SQFT",
     description: "",
     images: [
       "/images/projectimg/SYMPHONY-KOLLAM/3.jpg",

@@ -62,13 +62,13 @@ const About = () => {
 
             </div>
 
-            <div className="team-section">
+            {/* <div className="team-section">
                 <h2 className="section-heading-centered">Meet the Architects </h2>
                 <div className="team-grid">
                     {teamMembers.map((member, index) => (
                         <div key={index} className="team-member-card">
                             <div className="member-photo-wrapper">
-                                {/* Image tag for visual value:  */}
+                               
                                 <img src={member.img} alt={member.name} className="member-photo" />
                             </div>
                             <h3 className="member-name">{member.name}</h3>
@@ -77,7 +77,7 @@ const About = () => {
                         </div>
                     ))}
                 </div>
-            </div>
+            </div> */}
 
             {/* Dynamic CTA Section - Encourage the client to take the next step */}
            
